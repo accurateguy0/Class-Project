@@ -1,0 +1,3 @@
+Audi, A6, 2004, 160000
+Audi, SQ5, 2022, 41000
+Volswagen, Tiguan, 2025, 5

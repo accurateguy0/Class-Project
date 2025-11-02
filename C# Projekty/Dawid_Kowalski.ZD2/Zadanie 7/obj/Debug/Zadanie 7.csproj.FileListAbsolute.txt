@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\Dawid_Kowalski.ZD2\Zadanie 7\obj\Debug\Zadanie 7.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Dawid_Kowalski.ZD2\Zadanie 7\obj\Debug\Zadanie 7.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Dawid_Kowalski.ZD2\Zadanie 7\bin\Debug\Zadanie 7.exe.config
+C:\Users\User\source\repos\Dawid_Kowalski.ZD2\Zadanie 7\bin\Debug\Zadanie 7.exe
+C:\Users\User\source\repos\Dawid_Kowalski.ZD2\Zadanie 7\bin\Debug\Zadanie 7.pdb
+C:\Users\User\source\repos\Dawid_Kowalski.ZD2\Zadanie 7\obj\Debug\Zadanie 7.exe
+C:\Users\User\source\repos\Dawid_Kowalski.ZD2\Zadanie 7\obj\Debug\Zadanie 7.pdb

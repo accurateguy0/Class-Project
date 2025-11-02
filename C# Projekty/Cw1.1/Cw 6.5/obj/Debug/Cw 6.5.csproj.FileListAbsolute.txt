@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\Cw1.1\Cw 6.5\bin\Debug\Cw 6.5.exe.config
+C:\Users\User\source\repos\Cw1.1\Cw 6.5\bin\Debug\Cw 6.5.exe
+C:\Users\User\source\repos\Cw1.1\Cw 6.5\bin\Debug\Cw 6.5.pdb
+C:\Users\User\source\repos\Cw1.1\Cw 6.5\obj\Debug\Cw 6.5.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Cw1.1\Cw 6.5\obj\Debug\Cw 6.5.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Cw1.1\Cw 6.5\obj\Debug\Cw 6.5.exe
+C:\Users\User\source\repos\Cw1.1\Cw 6.5\obj\Debug\Cw 6.5.pdb

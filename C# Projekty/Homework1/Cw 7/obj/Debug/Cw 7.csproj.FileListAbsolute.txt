@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\Homework1\Cw 7\obj\Debug\Cw 7.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Homework1\Cw 7\obj\Debug\Cw 7.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Homework1\Cw 7\bin\Debug\Cw 7.exe.config
+C:\Users\User\source\repos\Homework1\Cw 7\bin\Debug\Cw 7.exe
+C:\Users\User\source\repos\Homework1\Cw 7\bin\Debug\Cw 7.pdb
+C:\Users\User\source\repos\Homework1\Cw 7\obj\Debug\Cw 7.exe
+C:\Users\User\source\repos\Homework1\Cw 7\obj\Debug\Cw 7.pdb

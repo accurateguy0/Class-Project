@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\Dawid_Kowalski_ZestawA\Zadanie_2_B\bin\Debug\Zadanie_2_B.exe.config
+C:\Users\User\source\repos\Dawid_Kowalski_ZestawA\Zadanie_2_B\bin\Debug\Zadanie_2_B.exe
+C:\Users\User\source\repos\Dawid_Kowalski_ZestawA\Zadanie_2_B\bin\Debug\Zadanie_2_B.pdb
+C:\Users\User\source\repos\Dawid_Kowalski_ZestawA\Zadanie_2_B\obj\Debug\Zadanie_2_B.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Dawid_Kowalski_ZestawA\Zadanie_2_B\obj\Debug\Zadanie_2_B.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Dawid_Kowalski_ZestawA\Zadanie_2_B\obj\Debug\Zadanie_2_B.exe
+C:\Users\User\source\repos\Dawid_Kowalski_ZestawA\Zadanie_2_B\obj\Debug\Zadanie_2_B.pdb

@@ -1,0 +1,7 @@
+C:\Users\User\Documents\C# Projekty\Tester\Tester\bin\Debug\Tester.exe.config
+C:\Users\User\Documents\C# Projekty\Tester\Tester\bin\Debug\Tester.exe
+C:\Users\User\Documents\C# Projekty\Tester\Tester\bin\Debug\Tester.pdb
+C:\Users\User\Documents\C# Projekty\Tester\Tester\obj\Debug\Tester.csproj.AssemblyReference.cache
+C:\Users\User\Documents\C# Projekty\Tester\Tester\obj\Debug\Tester.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C# Projekty\Tester\Tester\obj\Debug\Tester.exe
+C:\Users\User\Documents\C# Projekty\Tester\Tester\obj\Debug\Tester.pdb

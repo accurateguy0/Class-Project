@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\Gra_RPG\Gra_RPG\obj\Debug\Gra_RPG.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Gra_RPG\Gra_RPG\obj\Debug\Gra_RPG.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Gra_RPG\Gra_RPG\bin\Debug\Gra_RPG.exe.config
+C:\Users\User\source\repos\Gra_RPG\Gra_RPG\bin\Debug\Gra_RPG.exe
+C:\Users\User\source\repos\Gra_RPG\Gra_RPG\bin\Debug\Gra_RPG.pdb
+C:\Users\User\source\repos\Gra_RPG\Gra_RPG\obj\Debug\Gra_RPG.exe
+C:\Users\User\source\repos\Gra_RPG\Gra_RPG\obj\Debug\Gra_RPG.pdb
+C:\Users\User\Documents\C# gra\Gra_RPG\Gra_RPG\bin\Debug\Gra_RPG.exe.config
+C:\Users\User\Documents\C# gra\Gra_RPG\Gra_RPG\bin\Debug\Gra_RPG.exe
+C:\Users\User\Documents\C# gra\Gra_RPG\Gra_RPG\bin\Debug\Gra_RPG.pdb
+C:\Users\User\Documents\C# gra\Gra_RPG\Gra_RPG\obj\Debug\Gra_RPG.csproj.AssemblyReference.cache
+C:\Users\User\Documents\C# gra\Gra_RPG\Gra_RPG\obj\Debug\Gra_RPG.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C# gra\Gra_RPG\Gra_RPG\obj\Debug\Gra_RPG.exe
+C:\Users\User\Documents\C# gra\Gra_RPG\Gra_RPG\obj\Debug\Gra_RPG.pdb

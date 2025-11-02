@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\Przywitanie\3.12\obj\Debug\3.12.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Przywitanie\3.12\obj\Debug\3.12.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Przywitanie\3.12\bin\Debug\3.12.exe.config
+C:\Users\User\source\repos\Przywitanie\3.12\bin\Debug\3.12.exe
+C:\Users\User\source\repos\Przywitanie\3.12\bin\Debug\3.12.pdb
+C:\Users\User\source\repos\Przywitanie\3.12\obj\Debug\3.12.exe
+C:\Users\User\source\repos\Przywitanie\3.12\obj\Debug\3.12.pdb

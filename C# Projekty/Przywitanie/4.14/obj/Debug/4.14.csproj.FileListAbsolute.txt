@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\Przywitanie\4.14\bin\Debug\4.14.exe.config
+C:\Users\User\source\repos\Przywitanie\4.14\bin\Debug\4.14.exe
+C:\Users\User\source\repos\Przywitanie\4.14\bin\Debug\4.14.pdb
+C:\Users\User\source\repos\Przywitanie\4.14\obj\Debug\4.14.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Przywitanie\4.14\obj\Debug\4.14.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Przywitanie\4.14\obj\Debug\4.14.exe
+C:\Users\User\source\repos\Przywitanie\4.14\obj\Debug\4.14.pdb

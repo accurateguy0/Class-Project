@@ -1,0 +1,375 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|c:\\users\\user\\documents\\c# gra\\gra_rpg\\gra_rpg\\actsscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|solutionrelative:gra_rpg\\actsscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|c:\\users\\user\\documents\\c# gra\\gra_rpg\\gra_rpg\\charactercreationscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|solutionrelative:gra_rpg\\charactercreationscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|c:\\users\\user\\documents\\c# gra\\gra_rpg\\gra_rpg\\fightscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|solutionrelative:gra_rpg\\fightscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|c:\\users\\user\\documents\\c# gra\\gra_rpg\\gra_rpg\\main_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|solutionrelative:gra_rpg\\main_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|c:\\users\\user\\documents\\c# gra\\gra_rpg\\gra_rpg\\artasset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|solutionrelative:gra_rpg\\artasset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|c:\\users\\user\\documents\\c# gra\\gra_rpg\\gra_rpg\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|solutionrelative:gra_rpg\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|c:\\users\\user\\documents\\c# gra\\gra_rpg\\gra_rpg\\fightmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|solutionrelative:gra_rpg\\fightmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|c:\\users\\user\\documents\\c# gra\\gra_rpg\\gra_rpg\\titlescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|solutionrelative:gra_rpg\\titlescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|c:\\users\\user\\documents\\c# gra\\gra_rpg\\gra_rpg\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|solutionrelative:gra_rpg\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|c:\\users\\user\\documents\\c# gra\\gra_rpg\\gra_rpg\\stateditorscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|solutionrelative:gra_rpg\\stateditorscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|c:\\users\\user\\documents\\c# gra\\gra_rpg\\gra_rpg\\soundtrack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|solutionrelative:gra_rpg\\soundtrack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|c:\\users\\user\\documents\\c# gra\\gra_rpg\\gra_rpg\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|solutionrelative:gra_rpg\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|c:\\users\\user\\documents\\c# gra\\gra_rpg\\gra_rpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|solutionrelative:gra_rpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|c:\\users\\user\\documents\\c# gra\\gra_rpg\\gra_rpg\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|solutionrelative:gra_rpg\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|c:\\users\\user\\documents\\c# gra\\gra_rpg\\gra_rpg\\navigationscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|solutionrelative:gra_rpg\\navigationscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|c:\\users\\user\\documents\\c# gra\\gra_rpg\\gra_rpg\\navigationmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|solutionrelative:gra_rpg\\navigationmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|c:\\users\\user\\documents\\c# gra\\gra_rpg\\gra_rpg\\inventorymenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|solutionrelative:gra_rpg\\inventorymenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|c:\\users\\user\\documents\\c# gra\\gra_rpg\\gra_rpg\\fightkungfu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|solutionrelative:gra_rpg\\fightkungfu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|c:\\users\\user\\documents\\c# gra\\gra_rpg\\gra_rpg\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|solutionrelative:gra_rpg\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|c:\\users\\user\\documents\\c# gra\\gra_rpg\\gra_rpg\\creditsscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|solutionrelative:gra_rpg\\creditsscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|c:\\users\\user\\documents\\c# gra\\gra_rpg\\gra_rpg\\consoleutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|solutionrelative:gra_rpg\\consoleutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|c:\\users\\user\\documents\\c# gra\\gra_rpg\\gra_rpg\\07 - tufashijian.wav||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{6D0A19F9-7571-4043-9E3B-0B2CAB5DCDE1}|Gra_RPG\\Gra_RPG.csproj|solutionrelative:gra_rpg\\07 - tufashijian.wav||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TitleScene.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\TitleScene.cs",
+              "RelativeDocumentMoniker": "Gra_RPG\\TitleScene.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\TitleScene.cs",
+              "RelativeToolTip": "Gra_RPG\\TitleScene.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA4wEEAAABDAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T05:18:45.867Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\Game.cs",
+              "RelativeDocumentMoniker": "Gra_RPG\\Game.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\Game.cs",
+              "RelativeToolTip": "Gra_RPG\\Game.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIA3wEQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T15:57:39.336Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FightScene.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\FightScene.cs",
+              "RelativeDocumentMoniker": "Gra_RPG\\FightScene.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\FightScene.cs",
+              "RelativeToolTip": "Gra_RPG\\FightScene.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T09:20:27.311Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FightMenu.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\FightMenu.cs",
+              "RelativeDocumentMoniker": "Gra_RPG\\FightMenu.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\FightMenu.cs",
+              "RelativeToolTip": "Gra_RPG\\FightMenu.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T17:06:03.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ArtAsset.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\ArtAsset.cs",
+              "RelativeDocumentMoniker": "Gra_RPG\\ArtAsset.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\ArtAsset.cs",
+              "RelativeToolTip": "Gra_RPG\\ArtAsset.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAQwK8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T09:21:31.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Main_Menu.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\Main_Menu.cs",
+              "RelativeDocumentMoniker": "Gra_RPG\\Main_Menu.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\Main_Menu.cs",
+              "RelativeToolTip": "Gra_RPG\\Main_Menu.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwDcAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T15:26:53.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ActsScene.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\ActsScene.cs",
+              "RelativeDocumentMoniker": "Gra_RPG\\ActsScene.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\ActsScene.cs",
+              "RelativeToolTip": "Gra_RPG\\ActsScene.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8CAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T04:52:40.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CharacterCreationScene.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\CharacterCreationScene.cs",
+              "RelativeDocumentMoniker": "Gra_RPG\\CharacterCreationScene.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\CharacterCreationScene.cs",
+              "RelativeToolTip": "Gra_RPG\\CharacterCreationScene.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAA4wEoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:54:09.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StatEditorScene.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\StatEditorScene.cs",
+              "RelativeDocumentMoniker": "Gra_RPG\\StatEditorScene.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\StatEditorScene.cs",
+              "RelativeToolTip": "Gra_RPG\\StatEditorScene.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T22:32:55.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Soundtrack.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\Soundtrack.cs",
+              "RelativeDocumentMoniker": "Gra_RPG\\Soundtrack.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\Soundtrack.cs",
+              "RelativeToolTip": "Gra_RPG\\Soundtrack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T05:28:14.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Character.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\Character.cs",
+              "RelativeDocumentMoniker": "Gra_RPG\\Character.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\Character.cs",
+              "RelativeToolTip": "Gra_RPG\\Character.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAACbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T09:24:29.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Scene.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\Scene.cs",
+              "RelativeDocumentMoniker": "Gra_RPG\\Scene.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\Scene.cs",
+              "RelativeToolTip": "Gra_RPG\\Scene.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:49:31.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\Program.cs",
+              "RelativeDocumentMoniker": "Gra_RPG\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\Program.cs",
+              "RelativeToolTip": "Gra_RPG\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T08:44:03.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\Player.cs",
+              "RelativeDocumentMoniker": "Gra_RPG\\Player.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\Player.cs",
+              "RelativeToolTip": "Gra_RPG\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T06:15:35.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NavigationScene.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\NavigationScene.cs",
+              "RelativeDocumentMoniker": "Gra_RPG\\NavigationScene.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\NavigationScene.cs",
+              "RelativeToolTip": "Gra_RPG\\NavigationScene.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T07:27:54.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NavigationMenu.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\NavigationMenu.cs",
+              "RelativeDocumentMoniker": "Gra_RPG\\NavigationMenu.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\NavigationMenu.cs",
+              "RelativeToolTip": "Gra_RPG\\NavigationMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T07:35:53.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "InventoryMenu.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\InventoryMenu.cs",
+              "RelativeDocumentMoniker": "Gra_RPG\\InventoryMenu.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\InventoryMenu.cs",
+              "RelativeToolTip": "Gra_RPG\\InventoryMenu.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwBUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T19:26:30.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Fightkungfu.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\Fightkungfu.cs",
+              "RelativeDocumentMoniker": "Gra_RPG\\Fightkungfu.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\Fightkungfu.cs",
+              "RelativeToolTip": "Gra_RPG\\Fightkungfu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAACLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T11:10:00.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\Enemy.cs",
+              "RelativeDocumentMoniker": "Gra_RPG\\Enemy.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\Enemy.cs",
+              "RelativeToolTip": "Gra_RPG\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T09:21:45.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CreditsScene.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\CreditsScene.cs",
+              "RelativeDocumentMoniker": "Gra_RPG\\CreditsScene.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\CreditsScene.cs",
+              "RelativeToolTip": "Gra_RPG\\CreditsScene.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAACkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T05:08:47.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ConsoleUtils.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\ConsoleUtils.cs",
+              "RelativeDocumentMoniker": "Gra_RPG\\ConsoleUtils.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\ConsoleUtils.cs",
+              "RelativeToolTip": "Gra_RPG\\ConsoleUtils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAACNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:57:07.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "07 - tufashijian.wav",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\07 - tufashijian.wav",
+              "RelativeDocumentMoniker": "Gra_RPG\\07 - tufashijian.wav",
+              "ToolTip": "C:\\Users\\User\\Documents\\C# gra\\Gra_RPG\\Gra_RPG\\07 - tufashijian.wav",
+              "RelativeToolTip": "Gra_RPG\\07 - tufashijian.wav",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHoSURBVDhPhZM/aBNxFMc/ucaGJrQSdUgQUwoOlWLUxQyazXZxc1BwcXFxUhSHDAqCkE26VRdRN3EUhExH1jiIWOuStBCphYjG47yjd7nf7zncn\u002BTaqg\u002BOe/zee5/3/X25yxCFaZoS538LEVG1Wu1BoVBoxgdJ0TRNCUYjCYKRKBWIUoForURrJUEwEq2VdDodabVaqr/99VY8Z8SJiCAIyBgcvw0jbPN9n3q9bnxZ31jt9Xo3UgCt9T8hAI7j0G630VpPd7vdFymAiIBICIny/tDj9utNNgcuAMvLlzhTrXJqcTGB7lNApEIEpqYyrHV9HnbH4FK5RGW\u002Bgtb6YMDkM5M1uF49yputn7z8/D1uTUUCUEoRChirGDgjpm2Lxwuae63tlDdKqTRgrwJEqBzO8l7b3D1/nOJuITI4rB94hbAYblkfeDzd8Jg9lOND3\u002BGb64bwyPB9gCAIku3XXu2w8nbI/Y8e/u8cO7bPo9P5ZDsS9qcAk9LfGbP8mDFguMunLYvSXJY7VxbGVyTqnQRYlpXIO\u002Bv1wbNAfnFhKU\u002B1nI\u002BGSVRYlpUG2LaduP/k8jzPa0dYvVjk2cqJZGhSpW3baYAbmYTAuWM5rp6c4\u002BZSkXLeSLkfm\u002By64deZiQGNRuO/v/PeaDabmT81H4u2rQbLnAAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-06-01T08:58:17.318Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

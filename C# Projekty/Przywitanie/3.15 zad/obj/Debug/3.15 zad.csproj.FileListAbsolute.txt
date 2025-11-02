@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\Przywitanie\3.15 zad\bin\Debug\3.15 zad.exe.config
+C:\Users\User\source\repos\Przywitanie\3.15 zad\bin\Debug\3.15 zad.exe
+C:\Users\User\source\repos\Przywitanie\3.15 zad\bin\Debug\3.15 zad.pdb
+C:\Users\User\source\repos\Przywitanie\3.15 zad\obj\Debug\3.15 zad.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Przywitanie\3.15 zad\obj\Debug\3.15 zad.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Przywitanie\3.15 zad\obj\Debug\3.15 zad.exe
+C:\Users\User\source\repos\Przywitanie\3.15 zad\obj\Debug\3.15 zad.pdb

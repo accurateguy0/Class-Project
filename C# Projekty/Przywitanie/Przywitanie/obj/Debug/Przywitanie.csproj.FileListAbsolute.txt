@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\Przywitanie\Przywitanie\bin\Debug\Przywitanie.exe.config
+C:\Users\User\source\repos\Przywitanie\Przywitanie\bin\Debug\Przywitanie.exe
+C:\Users\User\source\repos\Przywitanie\Przywitanie\bin\Debug\Przywitanie.pdb
+C:\Users\User\source\repos\Przywitanie\Przywitanie\obj\Debug\Przywitanie.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Przywitanie\Przywitanie\obj\Debug\Przywitanie.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Przywitanie\Przywitanie\obj\Debug\Przywitanie.exe
+C:\Users\User\source\repos\Przywitanie\Przywitanie\obj\Debug\Przywitanie.pdb
