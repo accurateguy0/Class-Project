@@ -1,0 +1,84 @@
+Krok 1: Instalacja narzędzi (Kompilator i Asembler)
+Na Windowsie najwygodniej jest użyć środowiska MSYS2, które pozwoli Ci zainstalować gcc (dla C) i nasm (dla Assemblera) w prosty sposób.
+
+Pobierz MSYS2: Wejdź na stronę msys2.org i pobierz instalator.
+
+Zainstaluj: Przejdź przez standardowy proces instalacji.
+
+Uruchom terminal MSYS2 UCRT64: Po instalacji wyszukaj w menu Start "MSYS2 UCRT64".
+
+Wpisz komendę instalacyjną: W czarnym oknie terminala wpisz poniższą komendę i potwierdź klawiszem Enter: pacman -S mingw-w64-ucrt-x86_64-gcc mingw-w64-ucrt-x86_64-nasm (Zapyta Cię, czy kontynuować – wpisz Y i naciśnij Enter).
+
+Krok 2: Przygotowanie plików z kodem
+Stwórz na pulpicie nowy folder, np. projekt_pi. Otwórz Notatnik (lub Visual Studio Code) i stwórz w tym folderze dwa pliki:
+
+Plik 1: main.c Ten kod w C to nasz "kierownik". Odpowiada za pobranie wyniku z Assemblera i wyświetlenie go.
+
+C
+
+#include <stdio.h>
+
+extern double oblicz_pi(long long iteracje);
+
+int main() {
+    long long n = 1000000; 
+    double wynik = oblicz_pi(n);
+    printf("Wynik pi: %.15f\n", wynik);
+    return 0;
+}
+Plik 2: pi.asm To nasz "robot" do zadań specjalnych. Używa rejestrów procesora (takich jak xmm), aby szybko liczyć ułamki.
+
+Code snippet
+
+section .data
+    cztery  dq 4.0
+    jeden   dq 1.0
+    dwa     dq 2.0
+
+section .text
+    global oblicz_pi
+
+oblicz_pi:
+    movsd xmm0, [rel jeden]     ; Dodaj "rel" przed każdą nazwą w nawiasach []
+    movsd xmm1, [rel jeden]
+    movsd xmm2, [rel dwa]
+    movsd xmm3, [rel jeden]
+    pxor xmm4, xmm4
+    subsd xmm4, [rel jeden]
+    movsd xmm5, [rel jeden]
+
+    dec rcx
+petla:
+    addsd xmm3, xmm2
+    mulsd xmm5, xmm4
+    movsd xmm6, [rel jeden]     ; Tutaj też dodaj "rel"
+    divsd xmm6, xmm3
+    mulsd xmm6, xmm5
+    addsd xmm0, xmm6
+    loop petla
+
+    mulsd xmm0, [rel cztery]    ; I tutaj na końcu
+    ret
+
+Krok 3: Ostatnia prosta – Kompilacja na Windows
+Otwórz terminal MSYS2 UCRT64 (ten, w którym instalowałeś narzędzia) i wpisz komendę cd, aby przejść do folderu z Twoimi plikami. Na przykład, jeśli folder jest na pulpicie: cd /c/Users/TwojaNazwaUzytkownika/Desktop/projekt_pi
+
+
+
+Spróbujmy tam trafić razem. Wpisz w terminalu tę komendę:
+
+cd /c/Users
+
+
+Teraz wpisz te dwie magiczne komendy:
+
+Asemblacja (zamiana tekstu .asm na kod maszynowy):
+
+Bash
+
+nasm -f win64 pi.asm -o pi.obj
+Kompilacja i Linkowanie (łączenie wszystkiego w .exe):
+
+Bash
+
+gcc main.c pi.obj -o program_pi.exe
