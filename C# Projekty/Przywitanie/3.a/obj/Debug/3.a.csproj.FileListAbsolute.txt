@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\Przywitanie\3.a\bin\Debug\3.a.exe.config
+C:\Users\User\source\repos\Przywitanie\3.a\bin\Debug\3.a.exe
+C:\Users\User\source\repos\Przywitanie\3.a\bin\Debug\3.a.pdb
+C:\Users\User\source\repos\Przywitanie\3.a\obj\Debug\3.a.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Przywitanie\3.a\obj\Debug\3.a.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Przywitanie\3.a\obj\Debug\3.a.exe
+C:\Users\User\source\repos\Przywitanie\3.a\obj\Debug\3.a.pdb

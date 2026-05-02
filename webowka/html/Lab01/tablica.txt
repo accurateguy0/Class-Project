@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+   <title> Linki i obrazy</title>
+</head>
+<body>
+   <header>
+      <h1>Tablica</h1>
+   </header>
+<table>
+  <caption>
+    Front-end web developer course 2021
+  </caption>
+  <thead>
+    <tr>
+      <th scope="col">Godzina</th>
+      <th scope="col">Przedmiot</th>
+      <th scope="col">Nauczyciel</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">8</th>
+      <td>Polski</td>
+      <td>Barbara</td>
+    </tr>
+    <tr>
+      <th scope="row">Dennis</th>
+      <td>Web accessibility</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <th scope="row">Sarah</th>
+      <td>JavaScript frameworks</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <th scope="row">Karen</th>
+      <td>Web performance</td>
+      <td>36</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th scope="row" colspan="2">Average age</th>
+      <td>33</td>
+    </tr>
+  </tfoot>
+</table>
+</body>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+ <meta charset="UTF-8">
+<title>Table Gallery</title>
+<style>
+h1 {
+    font-weight: 200;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+ h2 {
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 40px;
+  }
+.memories {
+    position: fixed;
+    left: 10%;
+    right: 10%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+  }
+.memories a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: opacity 0.3s;
+  }
+
+table {
+  margin: 20px auto; /* 20px auto bedzie wysrodkowac */
+  border: 1px solid gray;      /* 1px solid gray;  3px dotted #F00; obramowanie calej tabeli } */
+  border-collapse: collapse; /* { border-collapse: collapse; włączenie nakładania się na siebie obramowania } */
+  caption-side: top; /* {  bottom; umiejscowanie tytułu tabeli } */
+  width: 50%;
+
+}
+th, td {
+    border: 1px solid gray; /* 1px solid green;  3px dashed #F00; obramowanie komórki */
+    padding: 3px;   /*    odstęp obramowania komórki od jej zawartości  */
+    text-align: center; /*text-align: left; vertical-align: top; wyrównanie zawartości komórki w poziomie (left, center, right, justify) / pionie (top, middle, bottom). */
+
+  }
+thead th {
+    border-bottom: 2px solid gray;
+    font-weight: bold;
+}
+
+</style> 
+</head>
+<body>
+<h1>HTML Table Gallery</h1>
+<h2>Tablica 1</h2>
+<table > 
+  <thead> 
+    <tr class="out"> 
+      <th>lp.</th> 
+      <th>miesiąc</th> 
+      <th>element 1</th> 
+      <th>element 2</th>
+      <th>element 3</th>
+      <th>element 4</th>
+    </tr> 
+  </thead> 
+  <tbody> 
+    <tr> 
+      <td>1.</td> 
+      <td>styczeń</td> 
+      <td>ilość 1</td> 
+      <td>ilość 2</td>
+      <td>ilość 3</td>
+      <td>ilość 4</td>
+    </tr> 
+    <tr> 
+      <td>2.</td> 
+      <td>luty</td> 
+      <td>ilość 1</td> 
+      <td>ilość 2</td>
+      <td>ilość 3</td>
+      <td>ilość 4</td>
+    </tr><tr> 
+      <td>3.</td> 
+      <td>marzec</td> 
+      <td>ilość 1</td> 
+      <td>ilość 2</td>
+      <td>ilość 3</td>
+      <td>ilość 4</td>
+    </tr><tr> 
+      <td>4.</td> 
+      <td>kwiecień</td> 
+      <td>ilość 1</td> 
+      <td>ilość 2</td>
+      <td>ilość 3</td>
+      <td>ilość 4</td>
+    </tr><tr> 
+      <td>5.</td> 
+      <td>maj</td> 
+      <td>ilość 1</td> 
+      <td>ilość 2</td>
+      <td>ilość 3</td>
+      <td>ilość 4</td>
+    </tr><tr> 
+      <td>6.</td> 
+      <td>czerwiec</td> 
+      <td>ilość 1</td> 
+      <td>ilość 2</td>
+      <td>ilość 3</td>
+      <td>ilość 4</td>
+    </tr><tr> 
+      <td>7.</td> 
+      <td>lipiec</td> 
+      <td>ilość 1</td> 
+      <td>ilość 2</td>
+      <td>ilość 3</td>
+      <td>ilość 4</td>
+    </tr><tr> 
+      <td>8.</td> 
+      <td>sierpień</td> 
+      <td>ilość 1</td> 
+      <td>ilość 2</td>
+      <td>ilość 3</td>
+      <td>ilość 4</td>
+    </tr><tr> 
+      <td>9.</td> 
+      <td>wrzesień</td> 
+      <td>ilość 1</td> 
+      <td>ilość 2</td>
+      <td>ilość 3</td>
+      <td>ilość 4</td>
+    </tr><tr> 
+      <td>10.</td> 
+      <td>październik</td> 
+      <td>ilość 1</td> 
+      <td>ilość 2</td>
+      <td>ilość 3</td>
+      <td>ilość 4</td>
+    </tr><tr> 
+      <td>11.</td> 
+      <td>listopad</td> 
+      <td>ilość 1</td> 
+      <td>ilość 2</td>
+      <td>ilość 3</td>
+      <td>ilość 4</td>
+    </tr><tr> 
+      <td>12.</td> 
+      <td>grudzień</td> 
+      <td>ilość 1</td> 
+      <td>ilość 2</td>
+      <td>ilość 3</td>
+      <td>ilość 4</td>
+    </tr> <tr> 
+      <td></td> 
+      <td>RAZEM</td> 
+      <td>?</td> 
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+  </tbody>
+    
+</table>
+
+<div class="memories">
+    <a href="tablice.html">Previous</a>
+    <a href="table2.html">Next</a>
+</div>
+</body>

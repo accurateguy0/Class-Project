@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+ <meta charset="UTF-8">
+<title>Table Gallery</title>
+<style>
+h1 {
+    font-weight: 200;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+ h2 {
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 40px;
+  }
+.memories {
+    position: fixed;
+    left: 10%;
+    right: 10%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+  }
+.memories a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: opacity 0.3s;
+  }
+table {
+  margin: 22px auto; /* 20px auto bedzie wysrodkowac */
+  border: 2px solid gray;      /* 1px solid gray;  3px dotted #F00; obramowanie calej tabeli } */
+  border-collapse: collapse; /* { border-collapse: collapse; włączenie nakładania się na siebie obramowania } */
+  caption-side: top; /* {  bottom; umiejscowanie tytułu tabeli } */
+  width: 60%;
+
+}
+th, td {
+    border: 2px solid gray; /* 1px solid green;  3px dashed #F00; obramowanie komórki */
+    text-align: center; /*text-align: left; vertical-align: top; wyrównanie zawartości komórki w poziomie (left, center, right, justify) / pionie (top, middle, bottom). */
+  }
+td {
+    height: 30px;
+}
+.thick {
+  font-weight: 600;
+}
+</style> 
+</head>
+<body>
+<h1>HTML Table Gallery</h1>
+<h2>Tablica 9</h2>
+<table > 
+  <tbody> 
+    <tr> 
+      <td rowspan="2" colspan="2" class="thick">Student</td>
+      <td colspan="4" class="thick">Exam</td>
+      <td colspan="4" class="thick">2nd Exam</td>
+      <td colspan="2" rowspan="2" class="thick">Final Grade</td>
+    </tr>
+    <tr>
+      
+      <td class="thick">Q1</td>
+      <td class="thick">Q2</td>
+      <td class="thick">Q3</td>
+      <td rowspan="2" class="thick">Grade</td>
+      <td class="thick">Q1</td>
+      <td class="thick">Q2</td>
+      <td class="thick">Q3</td>
+      <td rowspan="2" class="thick">Grade</td>
+    </tr>
+    <tr>
+      <td class="thick">Code</td>
+      <td class="thick">Name</td>
+      <td >8</td>
+      <td >7</td>
+      <td >5</td>
+      <td >6</td>
+      <td >7</td>
+      <td >8</td>
+      <td class="thick">NR</td>
+      <td class="thick">R</td>
+    </tr>
+    <tr>
+      <td>80549061</td>
+      <td>John</td>
+      <td>70%</td>
+      <td>100%</td>
+      <td>100%</td>
+      <td>17.6</td>
+      <td colspan="4"></td>
+      <td>17.6</td>
+      <td>18</td>
+    </tr>
+    <tr> 
+      <td>80549062</td>
+      <td>Mary</td>
+      <td>10%</td>
+      <td>50%</td>
+      <td>50%</td>
+      <td>6.8</td>
+      <td>100%</td>
+      <td>100%</td>
+      <td>50%</td>
+      <td>16.5</td>
+      <td>16.5</td>
+      <td>17</td>
+    </tr>
+   <tr> 
+      <td>80549063</td>
+      <td>Claire</td>
+      <td colspan="4"></td>
+      <td>50%</td>
+      <td>50%</td>
+      <td>50%</td>
+      <td>10.0</td>
+      <td>10.0</td>
+      <td>10</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="memories">
+    <a href="table8.html">Previous</a>
+    <a href="table10.html">Next</a>
+</div>
+</body>

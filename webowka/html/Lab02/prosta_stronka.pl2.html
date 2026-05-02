@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>test2_web.pl</title>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  }
+
+ul {
+  gap: 20px;
+    
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+.all-browsers > h1, .browser {
+  margin: 10px;
+  padding: 5px;
+}
+
+.browser {
+  background: white;
+}
+
+.browser > h2, p {
+  margin: 4px;
+  font-size: 90%;
+}
+img {
+    width: 100%;
+    border-radius: 8px;
+    max-width:  500px;
+  }
+.nav{
+  display: inline-block;
+  cursor: pointer;
+}
+.nav-links {
+    display: flex; 
+    list-style: none;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none; 
+        flex-direction: column;
+    }
+    .nav-links.active {
+        display: flex; 
+    }
+    .hamburger {
+        display: block; 
+    }
+}
+.container {
+  display: grid;
+  grid-template-columns:  auto auto auto auto auto;
+  background-color: dodgerblue;
+  padding: 10px;
+}
+.container div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+</style>
+</head>
+<body>
+  <header>
+    <h1> Nagłówek</h1>
+    <nav class="navbar">
+            <a href="#" class="brand-logo">Logo</a>
+            
+            
+            <div class="hamburger" id="hamburger-btn">☰</div>
+            
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Strona Główna</a></li>
+                <li><a href="#o-nas">O Nas</a></li>
+                <li><a href="#uslugi">Usługi</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+
+  </header>
+  <main>
+    <p>Akapit</p>
+    <ul>
+      <li>Lista</li>
+      <li>Lista</li>
+      <li>Lista</li>
+      <li>Lista</li>
+    </ul>
+    <img src="catcute.jpg" alt="Cat Gangster" >
+    <p></p>
+    <nav class="nav" id="nav">
+      <li><a href="https://www.w3schools.com">Visit W3Schools.com!</a></li>
+      <li><a href="https://www.youtube.com/watch?v=6-mEiwe2NhE">Visit America</a></li>
+      <li><a href="https://www.hackthissite.org/">visit  North Korea</a></li>
+    </nav>
+
+    <table>
+      <tr>
+        <th>nazwa</th>
+        <th>cena</th>
+        <th>ilość</th>
+      </tr>
+      <tr>
+        <td>Płatki ziemniaczane</td>
+        <td>1,99zł</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Suszarka do owoców</td>
+        <td>300,99zł</td>
+        <td>7</td>
+      </tr>
+      <tr>
+    
+        <td>Malinki</td>
+        <td>3,01zł</td>
+        <td>6</td>
+      </tr>
+    </table>
+    <form>
+      <label for="imie">imię:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="email">Adres e-mail:</label><br>
+      <input type="email" id="email" name="email"><br>
+      <label for="nazwisko">wiadomość:</label><br>
+      <input type="text" id="widomosc" name="widomosc"><br>
+      <input type="submit" id="wyslij"  value="Wyślij"><br>
+    </form>
+    <div class="container">
+      <div>d</div>
+      <div>o</div>
+      <div>g</div>
+      <div>g</div>
+      <div>y</div>
+    </div>
+
+    <section>
+    <h1>Psychology</h1>
+    <p>Psychology is the scientific study of the mind and behavior. Its subject matter includes the behavior of humans and nonhumans, both conscious and unconscious phenomena, and mental processes such as thoughts, feelings, and motives.</p>
+    </section>
+
+    <section>
+    <h1>Psychology and link with Neuroscience</h1>
+    <p>Psychology is an academic discipline of broad scope, crossing the boundaries between the natural and social sciences. Biological psychologists seek an understanding of the emergent properties of brains, linking the discipline to neuroscience. As social scientists, psychologists aim to understand the behavior of individuals and groups.</p>
+    </section>
+    <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+    </article>
+
+    <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+    </article>
+
+    <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+    </article>
+  <main>
+<footer>
+  <p>Author: Hege Refsnes</p>
+  <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+</footer>
+<script>
+    const hamburgerBtn = document.getElementById('hamburger-btn');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburgerBtn.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+</script>
+</body>
+</html>

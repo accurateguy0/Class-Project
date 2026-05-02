@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+ <meta charset="UTF-8">
+<title>Table Gallery</title>
+<style>
+h1 {
+    font-weight: 200;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+ h2 {
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 40px;
+  }
+.memories {
+    position: fixed;
+    left: 10%;
+    right: 10%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+  }
+.memories a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: opacity 0.3s;
+  }
+caption{
+  font-size: 25px;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  color: #B0ACA7;
+  padding:45px;
+}
+table {
+  margin: 20px auto; /* 20px auto bedzie wysrodkowac */
+  border: 1px solid gray;      /* 1px solid gray;  3px dotted #F00; obramowanie calej tabeli } */
+  border-collapse: collapse; /* { border-collapse: collapse; włączenie nakładania się na siebie obramowania } */
+  caption-side: top; /* {  bottom; umiejscowanie tytułu tabeli } */
+  width: 70%;
+  
+
+}
+tfoot{ 
+  border: 1px solid gray;
+  padding: 6px;
+}
+.ba{
+  font-size: 15px;
+  text-align: center;
+  
+}
+.bb{
+  font-size: 15px;
+  font-weight: 100;
+  text-align: left;
+}
+
+.ha {
+  padding: 5px;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 500;
+  
+}
+.hb {
+  padding-left: 20px;
+  text-align: left;
+  font-size: 12px; 
+  font-weight: 500;
+  padding-right: 100px;
+}
+.fa {
+  padding: 5px;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 500;
+  
+}
+.fb {
+  padding-left: 50px;
+  text-align: left;
+  font-size: 10px; 
+  font-weight: 500;
+  padding-right: 100px;
+}
+
+th:nth-child(1) {
+  text-align: center;
+  width: 30px;
+ }
+th:nth-child(2) {
+  text-align: left;
+  width: 40px;
+ }
+th:nth-child(3) {
+  text-align: center;
+  width: 120px;
+ }
+th:nth-child(4) {
+  text-align: center;
+  width: 70px;
+  padding: 2px;
+ }
+th:nth-child(5) {
+  text-align: center;
+  width: 20px;
+ }
+th:nth-child(6) {
+  text-align: left;
+  width: 100px;
+  padding-bottom: 10px;
+ }
+td:nth-child(5) {
+  text-align: center;
+ }
+
+td, th {
+  padding: 1px 7px; }
+
+
+</style> 
+</head>
+<body>
+<h1> HTML Table Gallery</h1>
+<h2>Tablica 2</h2>
+<table > 
+  <caption>Rewolucje przemysłowe - zestawienie</caption> 
+  <thead> 
+    <tr>
+      <th colspan="6" class="header-container">
+        <div class="ha">Czwarta rewolucja przemysłowa</div>
+        <ul class="hb"> Czwarta rewolucja przemysłowa to zanikanie bariery między ludźmi i maszynami. Powstają inteligentne fabryki z cyberfizycznymi systemami w otoczeniu: Internetu ludzi, Internetu rzeczy, Internetu usług, Internetu danych. </ul>
+      </th>
+    </tr>
+    
+  
+  </thead> 
+  <tbody> 
+    <tr class="ba"> 
+      <th class="ba"> Numer rewolucji</th>
+      <th class="ba">Początek</th> 
+      <th class="ba">Określenie</th>
+      <th class="ba">Wynalazek</th>
+      <th class="ba">Rok</th>
+      <th class="ba">Charakterystyka</th>  
+    </tr>
+    <tr class="bb"> 
+      <td> Pierwsza</td>  
+      <td>koniec XVIII wieku</td>
+      <td>Wiek pary</th>
+      <td>mechaniczne krosno tkackie</td>
+      <td>1784</td>
+      <td>Produkcja mechaniczna wspomagana siłą pary i wody</td>  
+    </tr>
+    <tr class="bb"> 
+      <td> Druga</td>  
+      <td>początek XX wieku</td>
+      <td>Wiek elektryczności</td>
+      <td>linia produkcyjna</td>
+      <td>1870</th>
+      <td>Produkcja masowa z zastosowaniem energii elektrycznej</td>  
+    </tr>
+    <tr class="bb"> 
+      <td> Trzecia</td>  
+      <td>lata 70. XX wieku</td>
+      <td>Wiek komputerów</th>
+      <td>programowalny układ logiczny</td>
+      <td>1969</th>
+      <td>Automatyzacja produkcji przemysłowej</td>  
+    </tr>
+    <tr class="bb"> 
+      <td> Czwarta</td>  
+      <td>początek XXI wieku</td>
+      <td>Wiek zanikania bariery ludzie - maszyny</td>
+      <td>internet</td>
+      <td>1991</td>
+      <td>Inteligentne fabryki z cyberfizycznymi systemami produkcji</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <th colspan="6" class="foot-container">
+        <div class="fa">Czwarta rewolucja przemysłowa to:</div>
+        <ul class="fb">
+          <li> nowa jakość komunikacji, w której zarówno świat cyfrowy, jak i rzeczywisty są połączone ze sobą, dzięki czemu maszyny, produkty w różnych fazach prztwarzania, systemy oraz ludzie - mając indywidualny adres IP - wymieniają cyfrową informację. poprzez protokół internetowy;
+          </li>
+ </ul>
+
+  </tfoot>
+    
+</table>
+
+<div class="memories">
+    <a href="table1.html">Previous</a>
+    <a href="table3.html">Next</a>
+</div>
+</body>

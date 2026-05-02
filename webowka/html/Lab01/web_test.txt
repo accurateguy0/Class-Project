@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+   <title>Strona Główna</title>
+</head>
+<body>
+   <header>
+      <h1>Witaj, świecie!</h1>
+   </header>
+   <p>Jestem Dawid i tworze moją stronę internetową dla zabawy</p>
+</body>
+</html>

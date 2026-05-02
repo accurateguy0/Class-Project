@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\Przywitanie\2.3 Zad\bin\Debug\2.3 Zad.exe.config
+C:\Users\User\source\repos\Przywitanie\2.3 Zad\bin\Debug\2.3 Zad.exe
+C:\Users\User\source\repos\Przywitanie\2.3 Zad\bin\Debug\2.3 Zad.pdb
+C:\Users\User\source\repos\Przywitanie\2.3 Zad\obj\Debug\2.3 Zad.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Przywitanie\2.3 Zad\obj\Debug\2.3 Zad.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Przywitanie\2.3 Zad\obj\Debug\2.3 Zad.exe
+C:\Users\User\source\repos\Przywitanie\2.3 Zad\obj\Debug\2.3 Zad.pdb

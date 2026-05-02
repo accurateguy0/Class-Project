@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+ <meta charset="UTF-8">
+<title>Table Gallery</title>
+<style>
+h1 {
+    font-weight: 200;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+ h2 {
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 40px;
+  }
+.memories {
+    position: fixed;
+    left: 10%;
+    right: 10%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+  }
+.memories a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: opacity 0.3s;
+  }
+table {
+  margin: 22px auto; /* 20px auto bedzie wysrodkowac */
+  border: 2px solid gray;      /* 1px solid gray;  3px dotted #F00; obramowanie calej tabeli } */
+  border-collapse: collapse; /* { border-collapse: collapse; włączenie nakładania się na siebie obramowania } */
+  caption-side: top; /* {  bottom; umiejscowanie tytułu tabeli } */
+  width: 60%;
+
+}
+th, td {
+    border: 2px solid gray; /* 1px solid green;  3px dashed #F00; obramowanie komórki */
+    text-align: center; /*text-align: left; vertical-align: top; wyrównanie zawartości komórki w poziomie (left, center, right, justify) / pionie (top, middle, bottom). */
+  }
+td {
+    height: 30px;
+}
+.total {
+  text-align: right;
+}
+.gruba {
+  font-weight: 600;
+}
+.col1, .col2, .col3{
+  
+  text-align: left;
+  padding-left: 5px;
+}
+
+.col1 {
+  width: 80px;
+}
+</style> 
+</head>
+<body>
+<h1>HTML Table Gallery</h1>
+<h2>Tablica 6</h2>
+<table > 
+  <tbody> 
+    <tr> 
+      <td rowspan="12" class="gruba">TCB</td>
+      <tr> 
+        <td colspan="1" class="gruba ">Order Date:</td> 
+        <td colspan="3" class="col2">23-Mar-2016</td> 
+      </tr>
+      <tr> 
+        <td colspan="1" class="gruba ">Order no:</td> 
+        <td colspan="3" class="col2">#ABC001</td> 
+      </tr>
+    </tr>
+      <td colspan="4" class="gruba">Customer</td>
+     
+    <tr>
+      <td colspan="1" class="gruba ">Name:</td> 
+      <td colspan="3" class="col2">John Papas</td> 
+    </tr>
+    <tr>
+      <td colspan="1" class="gruba ">Address:</td> 
+      <td colspan="3" class="col2">Independence Day 5th str, 11511</td> 
+    </tr>
+    <td colspan="4" class="gruba">Order Details</td>
+    <tr>
+      <td class="col1">1</td> 
+      <td class="col2">Of Mice and Men</td>
+      <td class="col3">Book</td> 
+      <td>10.00€</td> 
+    </tr>
+    <tr>
+      <td class="col1">2</td> 
+      <td class="col2">Les Miserables</td>
+      <td class="col3">Book</td> 
+      <td>12.00€</td> 
+    </tr>
+    <tr>
+      <td class="col1">3</td> 
+      <td class="col2">Game of Thrones - S01</td>
+      <td class="col3">DVD</td> 
+      <td>50.00€</td> 
+    </tr>
+    <tr>
+      <td class="col1">4</td> 
+      <td class="col2">Samsung Galaxy</td>
+      <td class="col3">Mobile Phone</td> 
+      <td>200.00€</td> 
+    </tr>
+    <tr>
+      <td colspan="3" class="total gruba">Total:</td> 
+      <td >272.00€</td> 
+    </tr>
+    </tr>
+  </tbody>
+</table>
+
+<div class="memories">
+    <a href="table5.html">Previous</a>
+    <a href="table7.html">Next</a>
+</div>
+</body>

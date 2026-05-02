@@ -1,0 +1,92 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _6._11
+{
+    static internal class Menu
+    {
+        static string[] pozycjeMenu = { "Opcja 1", "Opcja 2", "Opcja 3", "Opcja 4", "Opcja 5", "Koniec" };
+        static int aktywnaPozycjaMenu = 0;
+        public static void StartMenu()
+        {
+            Console.Title = "sztuczki i kruczki C#";
+            Console.CursorVisible = false;
+            while(true)
+            {
+                PokazMenu();
+                    WybieranieOpcji();
+                UruchomOpcje();
+            }
+
+        }
+        static void PokazMenu()
+        {
+            Console.BackgroundColor = ConsoleColor.Gray;
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
+            for (int i = 0; i < pozycjeMenu.Length; i++)
+            {
+                if( i == aktywnaPozycjaMenu )
+                {
+                    Console.BackgroundColor = ConsoleColor.DarkCyan;
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.WriteLine( "{0, -35}", pozycjeMenu[i] );
+                    Console.BackgroundColor = ConsoleColor.Gray;
+                    Console.ForegroundColor = ConsoleColor.DarkCyan;
+
+                }
+                else
+                {
+                    Console.WriteLine ( pozycjeMenu[i]);
+                }
+            }
+        }
+        static void WybieranieOpcji()
+        {
+            do
+            {
+                ConsoleKeyInfo klawisz = Console.ReadKey();
+                if (klawisz.Key == ConsoleKey.UpArrow)
+                {
+                    aktywnaPozycjaMenu = (aktywnaPozycjaMenu > 0) ? aktywnaPozycjaMenu - 1 : pozycjeMenu.Length - 1;
+                        PokazMenu();
+                }
+                else if (klawisz.Key == ConsoleKey.DownArrow)
+                {
+                    aktywnaPozycjaMenu = (aktywnaPozycjaMenu + 1) % pozycjeMenu.Length;
+                        PokazMenu();
+                }
+                else if (klawisz.Key == ConsoleKey.Escape)
+                {
+                    aktywnaPozycjaMenu = pozycjeMenu.Length - 1;
+                        break;
+                }
+                else if (klawisz.Key == ConsoleKey.Enter)
+                {
+                    break;
+                }
+            } while(true);
+        }
+        static void UruchomOpcje()
+        {
+            switch(aktywnaPozycjaMenu)
+            {
+                case 0: Console.Clear(); opcjaWBudowie(); break;
+                case 1: Console.Clear(); opcjaWBudowie(); break;
+                case 2: Console.Clear(); opcjaWBudowie(); break;
+                case 3: Console.Clear(); opcjaWBudowie(); break;
+                case 4: Console.Clear(); opcjaWBudowie(); break;
+                case 5: Environment.Exit(0); break;
+            }
+        }
+        static void opcjaWBudowie()
+        {
+            Console.SetCursorPosition(12, 4);
+            Console.Write("opcja w budowie");
+            Console.ReadKey();
+        }
+    }
+}

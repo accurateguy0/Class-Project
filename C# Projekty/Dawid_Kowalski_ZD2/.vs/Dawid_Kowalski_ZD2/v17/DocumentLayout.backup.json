@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\Dawid_Kowalski_ZD2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{461A9FBF-5DE2-4B12-8951-0B86CECC2D6C}|Cwiczenie 7\\Cwiczenie 7.csproj|C:\\Users\\User\\source\\repos\\Dawid_Kowalski_ZD2\\cwiczenie 7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{461A9FBF-5DE2-4B12-8951-0B86CECC2D6C}|Cwiczenie 7\\Cwiczenie 7.csproj|solutionrelative:cwiczenie 7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99949F88-02F6-430B-965A-24FDF5E122E1}|Zadanie 2\\Cwiczenie 5.csproj|c:\\users\\user\\source\\repos\\dawid_kowalski_zd2\\zadanie 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99949F88-02F6-430B-965A-24FDF5E122E1}|Zadanie 2\\Cwiczenie 5.csproj|solutionrelative:zadanie 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{723478CA-9446-42A5-B3EB-6B1175197D91}|Cwiczenie 6\\Cwiczenie 6.csproj|C:\\Users\\User\\source\\repos\\Dawid_Kowalski_ZD2\\cwiczenie 6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{723478CA-9446-42A5-B3EB-6B1175197D91}|Cwiczenie 6\\Cwiczenie 6.csproj|solutionrelative:cwiczenie 6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Dawid_Kowalski_ZD2\\Cwiczenie 7\\Program.cs",
+              "RelativeDocumentMoniker": "Cwiczenie 7\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Dawid_Kowalski_ZD2\\Cwiczenie 7\\Program.cs",
+              "RelativeToolTip": "Cwiczenie 7\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T09:05:59.947Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Dawid_Kowalski_ZD2\\Zadanie 2\\Program.cs",
+              "RelativeDocumentMoniker": "Zadanie 2\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Dawid_Kowalski_ZD2\\Zadanie 2\\Program.cs",
+              "RelativeToolTip": "Zadanie 2\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwBMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T11:50:33.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Dawid_Kowalski_ZD2\\Cwiczenie 6\\Program.cs",
+              "RelativeDocumentMoniker": "Cwiczenie 6\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Dawid_Kowalski_ZD2\\Cwiczenie 6\\Program.cs",
+              "RelativeToolTip": "Cwiczenie 6\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T08:52:54.14Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

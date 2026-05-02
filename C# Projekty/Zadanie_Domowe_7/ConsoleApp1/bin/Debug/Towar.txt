@@ -1,0 +1,3 @@
+Mikser, Bosch, 500
+Trzepaczka, Siemens, 10
+Telewizor, Sony, 2000

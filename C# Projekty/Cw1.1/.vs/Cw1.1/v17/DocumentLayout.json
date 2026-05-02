@@ -1,0 +1,859 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\Cw1.1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E32B9F9-1D9E-4DC5-8585-24888A6599F7}|Cw 6.6\\Cw 6.6.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 6.6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E32B9F9-1D9E-4DC5-8585-24888A6599F7}|Cw 6.6\\Cw 6.6.csproj|solutionrelative:cw 6.6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFDC3A-9FD1-4D08-B48E-0526889CA790}|Cw 6.5\\Cw 6.5.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 6.5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFFFDC3A-9FD1-4D08-B48E-0526889CA790}|Cw 6.5\\Cw 6.5.csproj|solutionrelative:cw 6.5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F80A715F-7431-4162-B910-BE1E5A024B24}|Cw 6.4\\Cw 6.4.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 6.4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80A715F-7431-4162-B910-BE1E5A024B24}|Cw 6.4\\Cw 6.4.csproj|solutionrelative:cw 6.4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB329DC2-06E8-4F97-809C-8AADF6D02E7C}|Cw 6.3\\Cw 6.3.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 6.3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB329DC2-06E8-4F97-809C-8AADF6D02E7C}|Cw 6.3\\Cw 6.3.csproj|solutionrelative:cw 6.3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36BB36B5-82DD-49E2-8FCD-3E1DA4601B2D}|Cw 6.2\\Cw 6.2.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 6.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36BB36B5-82DD-49E2-8FCD-3E1DA4601B2D}|Cw 6.2\\Cw 6.2.csproj|solutionrelative:cw 6.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10364AB2-BBC1-4738-8727-D35A07D13FE0}|Cw 7.5\\Cw 7.5.csproj|c:\\users\\user\\source\\repos\\cw1.1\\cw 7.5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10364AB2-BBC1-4738-8727-D35A07D13FE0}|Cw 7.5\\Cw 7.5.csproj|solutionrelative:cw 7.5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\Temp\\cf8e7993-c684-40aa-b4e7-af2d18a9823f_Lab7_2022.zip.23f\\Lab7_2022\\Cw5\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{389D13D4-3533-4826-981E-1C0772C8BB4A}|Cw 7.1\\Cw 7.1.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 7.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{389D13D4-3533-4826-981E-1C0772C8BB4A}|Cw 7.1\\Cw 7.1.csproj|solutionrelative:cw 7.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA077EE7-886F-441F-8DDA-E5C59070D6A8}|Cw 6.7\\Cw 6.7.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 6.7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA077EE7-886F-441F-8DDA-E5C59070D6A8}|Cw 6.7\\Cw 6.7.csproj|solutionrelative:cw 6.7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE27058E-292E-4F82-9B5D-A8FF9CBFE643}|Cw 7.4\\Cw 7.4.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 7.4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE27058E-292E-4F82-9B5D-A8FF9CBFE643}|Cw 7.4\\Cw 7.4.csproj|solutionrelative:cw 7.4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAE3ADB7-9D31-4D7E-8617-BB83CC6C2ADE}|Cw 7.3\\Cw 7.3.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 7.3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAE3ADB7-9D31-4D7E-8617-BB83CC6C2ADE}|Cw 7.3\\Cw 7.3.csproj|solutionrelative:cw 7.3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00FB54A9-8177-40D7-A2FC-492A3C50442E}|Cw 7.2\\Cw 7.2.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 7.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00FB54A9-8177-40D7-A2FC-492A3C50442E}|Cw 7.2\\Cw 7.2.csproj|solutionrelative:cw 7.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\Temp\\028783d4-106e-457d-8a9e-a6a7871c463f_Lab7_2022.zip.63f\\Lab7_2022\\Cw1\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\Temp\\7c065cb7-0102-4ede-9774-9139dc366b7a_Laboratorium6.zip.Laboratorium6.zip\\Laboratorium6\\Cw8\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA61642-B3C0-4DCF-8738-7391C4B60CB4}|Cw 6.1\\Cw 6.1.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 6.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA61642-B3C0-4DCF-8738-7391C4B60CB4}|Cw 6.1\\Cw 6.1.csproj|solutionrelative:cw 6.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2502747-8F26-48B8-99F8-337615823561}|Cw 5.8\\Cw 5.8.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 5.8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2502747-8F26-48B8-99F8-337615823561}|Cw 5.8\\Cw 5.8.csproj|solutionrelative:cw 5.8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E14F93A9-534F-40E7-8B21-2CB5B3396D3E}|Cw 3.8\\Cw 3.8.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 3.8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E14F93A9-534F-40E7-8B21-2CB5B3396D3E}|Cw 3.8\\Cw 3.8.csproj|solutionrelative:cw 3.8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBB829BA-EF6C-4925-9235-10F0512B15D8}|Cw 4.1\\Cw 4.1.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 4.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBB829BA-EF6C-4925-9235-10F0512B15D8}|Cw 4.1\\Cw 4.1.csproj|solutionrelative:cw 4.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799C6B15-E10D-4A03-B599-63A96FDF2D34}|Cw 4.2\\Cw 4.2.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 4.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799C6B15-E10D-4A03-B599-63A96FDF2D34}|Cw 4.2\\Cw 4.2.csproj|solutionrelative:cw 4.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513EB2E9-9835-4050-97C7-C0FF3050183C}|Cw 4.5\\Cw 4.5.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 4.5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{513EB2E9-9835-4050-97C7-C0FF3050183C}|Cw 4.5\\Cw 4.5.csproj|solutionrelative:cw 4.5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36695664-DED6-4926-89BB-F1336DC7F280}|Cw 4.7\\Cw 4.7.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 4.7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36695664-DED6-4926-89BB-F1336DC7F280}|Cw 4.7\\Cw 4.7.csproj|solutionrelative:cw 4.7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE01D4AD-A680-4F79-842D-1A730213C000}|Cw 5.3\\Cw 5.3.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 5.3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE01D4AD-A680-4F79-842D-1A730213C000}|Cw 5.3\\Cw 5.3.csproj|solutionrelative:cw 5.3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F276BF8-EFC2-45C1-9CF0-066BFA962A84}|Cw 5.4\\Cw 5.4.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 5.4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F276BF8-EFC2-45C1-9CF0-066BFA962A84}|Cw 5.4\\Cw 5.4.csproj|solutionrelative:cw 5.4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C6284F-6592-4CF5-AE35-C758EB01AEF9}|Cw 5.5\\Cw 5.5.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 5.5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C6284F-6592-4CF5-AE35-C758EB01AEF9}|Cw 5.5\\Cw 5.5.csproj|solutionrelative:cw 5.5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCBACA1F-CFA4-4BBB-82AD-252BCA8DC5D7}|Cw 5.6\\Cw 5.6.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 5.6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCBACA1F-CFA4-4BBB-82AD-252BCA8DC5D7}|Cw 5.6\\Cw 5.6.csproj|solutionrelative:cw 5.6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48149F9-CF6D-45C4-AA89-7728059FF0ED}|Cw 5.7\\Cw 5.7.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 5.7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A48149F9-CF6D-45C4-AA89-7728059FF0ED}|Cw 5.7\\Cw 5.7.csproj|solutionrelative:cw 5.7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\Temp\\3151a40c-aa77-42b1-936b-ca24d3e7227b_Lab5_2022.zip.27b\\Lab5_2022\\Cw7\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\Temp\\23e82d46-8d45-4316-87bb-a42c26b9b5a8_Lab5_2022.zip.5a8\\Lab5_2022\\Cw8\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9DBA36D-B10A-46CB-B0C4-5AF0DB2E53EA}|Cw 5.2\\Cw 5.2.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 5.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9DBA36D-B10A-46CB-B0C4-5AF0DB2E53EA}|Cw 5.2\\Cw 5.2.csproj|solutionrelative:cw 5.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63F16197-3C13-4F71-93B0-99900A957C45}|Cw 5.1\\Cw 5.1.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 5.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63F16197-3C13-4F71-93B0-99900A957C45}|Cw 5.1\\Cw 5.1.csproj|solutionrelative:cw 5.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27FCAD4F-AC48-4093-8AA5-A0E53315BF2E}|Cw 4.8\\Cw 4.8.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 4.8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27FCAD4F-AC48-4093-8AA5-A0E53315BF2E}|Cw 4.8\\Cw 4.8.csproj|solutionrelative:cw 4.8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF781C39-E7F2-430E-AD1A-6451DB3E5191}|Cw 4.6\\Cw 4.6.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 4.6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF781C39-E7F2-430E-AD1A-6451DB3E5191}|Cw 4.6\\Cw 4.6.csproj|solutionrelative:cw 4.6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF8E675-4457-4BBB-AD09-E0228CB5CAA1}|4.4\\4.4.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\4.4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF8E675-4457-4BBB-AD09-E0228CB5CAA1}|4.4\\4.4.csproj|solutionrelative:4.4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588CDE67-B025-4374-9851-2C145138CF5E}|Cw. 4.3\\Cw. 4.3.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw. 4.3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588CDE67-B025-4374-9851-2C145138CF5E}|Cw. 4.3\\Cw. 4.3.csproj|solutionrelative:cw. 4.3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7BA282A-537D-4436-974E-036538C54615}|Cw. 3.7\\Cw. 3.7.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw. 3.7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7BA282A-537D-4436-974E-036538C54615}|Cw. 3.7\\Cw. 3.7.csproj|solutionrelative:cw. 3.7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\Temp\\b3af61a1-a64a-4fc9-ba04-1831f2d94469_Lab3_2021.zip.469\\Lab3_2021\\Cw7\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF36C58E-9FDD-435F-A045-DC3CE535A2D5}|Cw 3.5\\Cw 3.5.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 3.5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF36C58E-9FDD-435F-A045-DC3CE535A2D5}|Cw 3.5\\Cw 3.5.csproj|solutionrelative:cw 3.5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EECCAD18-8EF0-463D-86A1-2D33A4A97F9B}|Cw 3.4\\Cw 3.4.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 3.4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EECCAD18-8EF0-463D-86A1-2D33A4A97F9B}|Cw 3.4\\Cw 3.4.csproj|solutionrelative:cw 3.4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05089C2F-B25D-4B87-B185-84E1CDE5B556}|Cw 3.3\\Cw 3.3.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 3.3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05089C2F-B25D-4B87-B185-84E1CDE5B556}|Cw 3.3\\Cw 3.3.csproj|solutionrelative:cw 3.3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE3E0DB-BC55-46DE-8FDD-45FBDF0184BC}|Cw 3.2\\Cw 3.2.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 3.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE3E0DB-BC55-46DE-8FDD-45FBDF0184BC}|Cw 3.2\\Cw 3.2.csproj|solutionrelative:cw 3.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36143D-3138-457D-AAAE-C2EEE566D67F}|Cw 3.1\\Cw 3.1.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 3.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F36143D-3138-457D-AAAE-C2EEE566D67F}|Cw 3.1\\Cw 3.1.csproj|solutionrelative:cw 3.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1331815-25CA-445E-82BB-8107BAACC745}|Cw 2.7\\Cw 2.7.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 2.7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1331815-25CA-445E-82BB-8107BAACC745}|Cw 2.7\\Cw 2.7.csproj|solutionrelative:cw 2.7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D92F6B13-5511-4D92-B2CD-C3E5D2C051B1}|Cw 2.6\\Cw 2.6.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 2.6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D92F6B13-5511-4D92-B2CD-C3E5D2C051B1}|Cw 2.6\\Cw 2.6.csproj|solutionrelative:cw 2.6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B104B90C-F12A-4F59-8242-714D08B9229E}|Cw 2.5\\Cw 2.5.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 2.5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B104B90C-F12A-4F59-8242-714D08B9229E}|Cw 2.5\\Cw 2.5.csproj|solutionrelative:cw 2.5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0CEA8A-F167-42ED-922A-20675FB65697}|Cw 2.4\\Cw 2.4.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 2.4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C0CEA8A-F167-42ED-922A-20675FB65697}|Cw 2.4\\Cw 2.4.csproj|solutionrelative:cw 2.4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57599408-1A05-48B9-AA7A-F2EC5458EF12}|Cw 2.3\\Cw 2.3.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 2.3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57599408-1A05-48B9-AA7A-F2EC5458EF12}|Cw 2.3\\Cw 2.3.csproj|solutionrelative:cw 2.3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0179837C-510A-420F-BEE7-E69D1F86308A}|Cw 2.2\\Cw 2.2.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 2.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0179837C-510A-420F-BEE7-E69D1F86308A}|Cw 2.2\\Cw 2.2.csproj|solutionrelative:cw 2.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFAE8C6-6511-4298-8EE1-B583476EA286}|Cw.2.1\\Cw.2.1.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw.2.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFAE8C6-6511-4298-8EE1-B583476EA286}|Cw.2.1\\Cw.2.1.csproj|solutionrelative:cw.2.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C721A64-4867-4BD6-8B3F-0BBF66B6B8F1}|Cw.1.7\\Cw.1.7.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw.1.7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C721A64-4867-4BD6-8B3F-0BBF66B6B8F1}|Cw.1.7\\Cw.1.7.csproj|solutionrelative:cw.1.7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2070E82A-14EB-47BD-BBBA-186E8C2C1FF6}|Cw 1.7\\Cw 1.7.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw 1.7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2070E82A-14EB-47BD-BBBA-186E8C2C1FF6}|Cw 1.7\\Cw 1.7.csproj|solutionrelative:cw 1.7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9D39141-74CA-4945-8FA1-CF4F29E6B680}|Cw1.5\\Cw1.5.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw1.5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9D39141-74CA-4945-8FA1-CF4F29E6B680}|Cw1.5\\Cw1.5.csproj|solutionrelative:cw1.5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A78FD19-3DC1-4EB2-B030-04058947D8A4}|Cw1.1\\Cw1.1.csproj|C:\\Users\\User\\source\\repos\\Cw1.1\\cw1.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A78FD19-3DC1-4EB2-B030-04058947D8A4}|Cw1.1\\Cw1.1.csproj|solutionrelative:cw1.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 7.5\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 7.5\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 7.5\\Program.cs",
+              "RelativeToolTip": "Cw 7.5\\Program.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAAwBsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T08:35:35.756Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 6.2\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 6.2\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 6.2\\Program.cs",
+              "RelativeToolTip": "Cw 6.2\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T11:13:21.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 7.1\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 7.1\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 7.1\\Program.cs",
+              "RelativeToolTip": "Cw 7.1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T10:20:58.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 6.3\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 6.3\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 6.3\\Program.cs",
+              "RelativeToolTip": "Cw 6.3\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T11:28:19.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 6.4\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 6.4\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 6.4\\Program.cs",
+              "RelativeToolTip": "Cw 6.4\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T11:06:48.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 6.5\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 6.5\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 6.5\\Program.cs",
+              "RelativeToolTip": "Cw 6.5\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T11:26:40.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 6.6\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 6.6\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 6.6\\Program.cs",
+              "RelativeToolTip": "Cw 6.6\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T11:40:45.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 7.2\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 7.2\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 7.2\\Program.cs",
+              "RelativeToolTip": "Cw 7.2\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T10:52:37.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 7.3\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 7.3\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 7.3\\Program.cs",
+              "RelativeToolTip": "Cw 7.3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T11:08:49.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 7.4\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 7.4\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 7.4\\Program.cs",
+              "RelativeToolTip": "Cw 7.4\\Program.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwE8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T11:15:14.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\AppData\\Local\\Temp\\cf8e7993-c684-40aa-b4e7-af2d18a9823f_Lab7_2022.zip.23f\\Lab7_2022\\Cw5\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\cf8e7993-c684-40aa-b4e7-af2d18a9823f_Lab7_2022.zip.23f\\Lab7_2022\\Cw5\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\AppData\\Local\\Temp\\cf8e7993-c684-40aa-b4e7-af2d18a9823f_Lab7_2022.zip.23f\\Lab7_2022\\Cw5\\Program.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\cf8e7993-c684-40aa-b4e7-af2d18a9823f_Lab7_2022.zip.23f\\Lab7_2022\\Cw5\\Program.cs [Read Only]",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T14:20:14.015Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 6.7\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 6.7\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 6.7\\Program.cs",
+              "RelativeToolTip": "Cw 6.7\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T11:56:15.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\AppData\\Local\\Temp\\028783d4-106e-457d-8a9e-a6a7871c463f_Lab7_2022.zip.63f\\Lab7_2022\\Cw1\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\028783d4-106e-457d-8a9e-a6a7871c463f_Lab7_2022.zip.63f\\Lab7_2022\\Cw1\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\AppData\\Local\\Temp\\028783d4-106e-457d-8a9e-a6a7871c463f_Lab7_2022.zip.63f\\Lab7_2022\\Cw1\\Program.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\028783d4-106e-457d-8a9e-a6a7871c463f_Lab7_2022.zip.63f\\Lab7_2022\\Cw1\\Program.cs [Read Only]",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T13:29:06.985Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\AppData\\Local\\Temp\\7c065cb7-0102-4ede-9774-9139dc366b7a_Laboratorium6.zip.Laboratorium6.zip\\Laboratorium6\\Cw8\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\7c065cb7-0102-4ede-9774-9139dc366b7a_Laboratorium6.zip.Laboratorium6.zip\\Laboratorium6\\Cw8\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\AppData\\Local\\Temp\\7c065cb7-0102-4ede-9774-9139dc366b7a_Laboratorium6.zip.Laboratorium6.zip\\Laboratorium6\\Cw8\\Program.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\7c065cb7-0102-4ede-9774-9139dc366b7a_Laboratorium6.zip.Laboratorium6.zip\\Laboratorium6\\Cw8\\Program.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T13:18:10.72Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 6.1\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 6.1\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 6.1\\Program.cs",
+              "RelativeToolTip": "Cw 6.1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T10:49:44.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 5.3\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 5.3\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 5.3\\Program.cs",
+              "RelativeToolTip": "Cw 5.3\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T15:41:50.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 4.7\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 4.7\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 4.7\\Program.cs",
+              "RelativeToolTip": "Cw 4.7\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T14:57:12.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 4.5\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 4.5\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 4.5\\Program.cs",
+              "RelativeToolTip": "Cw 4.5\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T14:38:28.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 4.2\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 4.2\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 4.2\\Program.cs",
+              "RelativeToolTip": "Cw 4.2\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T17:16:24.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 4.1\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 4.1\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 4.1\\Program.cs",
+              "RelativeToolTip": "Cw 4.1\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T17:09:57.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 3.8\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 3.8\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 3.8\\Program.cs",
+              "RelativeToolTip": "Cw 3.8\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T16:51:02.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 5.8\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 5.8\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 5.8\\Program.cs",
+              "RelativeToolTip": "Cw 5.8\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T10:38:28.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 5.4\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 5.4\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 5.4\\Program.cs",
+              "RelativeToolTip": "Cw 5.4\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T15:48:50.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 5.5\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 5.5\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 5.5\\Program.cs",
+              "RelativeToolTip": "Cw 5.5\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T08:50:44.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 5.6\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 5.6\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 5.6\\Program.cs",
+              "RelativeToolTip": "Cw 5.6\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T09:30:44.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 5.7\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 5.7\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 5.7\\Program.cs",
+              "RelativeToolTip": "Cw 5.7\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T10:03:22.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\AppData\\Local\\Temp\\3151a40c-aa77-42b1-936b-ca24d3e7227b_Lab5_2022.zip.27b\\Lab5_2022\\Cw7\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\3151a40c-aa77-42b1-936b-ca24d3e7227b_Lab5_2022.zip.27b\\Lab5_2022\\Cw7\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\AppData\\Local\\Temp\\3151a40c-aa77-42b1-936b-ca24d3e7227b_Lab5_2022.zip.27b\\Lab5_2022\\Cw7\\Program.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\3151a40c-aa77-42b1-936b-ca24d3e7227b_Lab5_2022.zip.27b\\Lab5_2022\\Cw7\\Program.cs [Read Only]",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T10:30:53.494Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\AppData\\Local\\Temp\\23e82d46-8d45-4316-87bb-a42c26b9b5a8_Lab5_2022.zip.5a8\\Lab5_2022\\Cw8\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\23e82d46-8d45-4316-87bb-a42c26b9b5a8_Lab5_2022.zip.5a8\\Lab5_2022\\Cw8\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\AppData\\Local\\Temp\\23e82d46-8d45-4316-87bb-a42c26b9b5a8_Lab5_2022.zip.5a8\\Lab5_2022\\Cw8\\Program.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\23e82d46-8d45-4316-87bb-a42c26b9b5a8_Lab5_2022.zip.5a8\\Lab5_2022\\Cw8\\Program.cs [Read Only]",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T10:40:23.086Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 5.2\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 5.2\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 5.2\\Program.cs",
+              "RelativeToolTip": "Cw 5.2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T15:33:47.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 5.1\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 5.1\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 5.1\\Program.cs",
+              "RelativeToolTip": "Cw 5.1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T15:24:38.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 4.8\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 4.8\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 4.8\\Program.cs",
+              "RelativeToolTip": "Cw 4.8\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T15:05:28.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 4.6\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 4.6\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 4.6\\Program.cs",
+              "RelativeToolTip": "Cw 4.6\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T14:50:11.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\4.4\\Program.cs",
+              "RelativeDocumentMoniker": "4.4\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\4.4\\Program.cs",
+              "RelativeToolTip": "4.4\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T14:29:55.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw. 4.3\\Program.cs",
+              "RelativeDocumentMoniker": "Cw. 4.3\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw. 4.3\\Program.cs",
+              "RelativeToolTip": "Cw. 4.3\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T17:27:24.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw. 3.7\\Program.cs",
+              "RelativeDocumentMoniker": "Cw. 3.7\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw. 3.7\\Program.cs",
+              "RelativeToolTip": "Cw. 3.7\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwDEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T16:23:33.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\AppData\\Local\\Temp\\b3af61a1-a64a-4fc9-ba04-1831f2d94469_Lab3_2021.zip.469\\Lab3_2021\\Cw7\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\b3af61a1-a64a-4fc9-ba04-1831f2d94469_Lab3_2021.zip.469\\Lab3_2021\\Cw7\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\AppData\\Local\\Temp\\b3af61a1-a64a-4fc9-ba04-1831f2d94469_Lab3_2021.zip.469\\Lab3_2021\\Cw7\\Program.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\b3af61a1-a64a-4fc9-ba04-1831f2d94469_Lab3_2021.zip.469\\Lab3_2021\\Cw7\\Program.cs [Read Only]",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T18:20:14.299Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 3.5\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 3.5\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 3.5\\Program.cs",
+              "RelativeToolTip": "Cw 3.5\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T17:13:43.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 3.4\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 3.4\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 3.4\\Program.cs",
+              "RelativeToolTip": "Cw 3.4\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T16:52:44.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 3.3\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 3.3\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 3.3\\Program.cs",
+              "RelativeToolTip": "Cw 3.3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T16:41:11.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 3.2\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 3.2\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 3.2\\Program.cs",
+              "RelativeToolTip": "Cw 3.2\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T16:30:30.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 3.1\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 3.1\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 3.1\\Program.cs",
+              "RelativeToolTip": "Cw 3.1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T16:18:16.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 2.7\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 2.7\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 2.7\\Program.cs",
+              "RelativeToolTip": "Cw 2.7\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T15:29:50.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 2.6\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 2.6\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 2.6\\Program.cs",
+              "RelativeToolTip": "Cw 2.6\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T15:26:01.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 2.5\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 2.5\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 2.5\\Program.cs",
+              "RelativeToolTip": "Cw 2.5\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T15:20:43.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 2.4\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 2.4\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 2.4\\Program.cs",
+              "RelativeToolTip": "Cw 2.4\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T15:10:10.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 2.3\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 2.3\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 2.3\\Program.cs",
+              "RelativeToolTip": "Cw 2.3\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T15:03:45.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 2.2\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 2.2\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 2.2\\Program.cs",
+              "RelativeToolTip": "Cw 2.2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T14:59:26.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw.2.1\\Program.cs",
+              "RelativeDocumentMoniker": "Cw.2.1\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw.2.1\\Program.cs",
+              "RelativeToolTip": "Cw.2.1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T14:56:43.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw.1.7\\Program.cs",
+              "RelativeDocumentMoniker": "Cw.1.7\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw.1.7\\Program.cs",
+              "RelativeToolTip": "Cw.1.7\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T14:54:34.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 1.7\\Program.cs",
+              "RelativeDocumentMoniker": "Cw 1.7\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw 1.7\\Program.cs",
+              "RelativeToolTip": "Cw 1.7\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T14:48:44.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw1.5\\Program.cs",
+              "RelativeDocumentMoniker": "Cw1.5\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw1.5\\Program.cs",
+              "RelativeToolTip": "Cw1.5\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T14:45:13.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw1.1\\Program.cs",
+              "RelativeDocumentMoniker": "Cw1.1\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Cw1.1\\Cw1.1\\Program.cs",
+              "RelativeToolTip": "Cw1.1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T14:42:48.058Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

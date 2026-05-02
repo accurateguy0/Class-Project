@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+   <title> The Menu</title>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat&family=Sacramento&display=swap");
+:root {
+  --nav-color: #675d50;
+  --nav-text: #fff;
+  --primary-color: #f3deba;
+  --secondary-color: #abc4aa;
+  --hover-color: #a9907e;
+}
+body {
+  background-color: var(--primary-color);
+}
+.main-nav ul {
+  list-style: none;
+  background-color: var(--nav-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: "Merriweather Sans", sans-serif;
+        
+}
+@media (max-width: 600px) {
+  .main-nav ul {
+    flex-direction: column;
+  }  
+}
+</style>
+
+</head>
+<body>
+   <header>
+      <h1>MainCourse</h1>
+   </header>
+<nav class="main-nav">
+  <ul>
+    <li><a href="#home">Strona Główna</a></li>
+    <li><a href="#o-nas">O Nas</a></li>
+    <li><a href="#uslugi">Usługi</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#kontakt">Kontakt</a></li>
+  </ul>
+</nav>
+
+ </body>
+</html>

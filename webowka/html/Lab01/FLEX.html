@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>flexing</title>
+
+</head>
+<style>
+.container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.container div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 24px;
+}
+@media (max-width: 600px) {
+  .container {
+     flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<h1>Flexbox</h1>
+
+<div class="container">
+  <div>pudeuko 1</div>
+  <div>pudeuko 2</div>
+  <div>pudeuko 3</div> 
+</div>
+</body>
+</html>
+
+

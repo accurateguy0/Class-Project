@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+ <meta charset="UTF-8">
+<title>Table Gallery</title>
+<style>
+h1 {
+    font-weight: 200;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+ h2 {
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 40px;
+  }
+.memories {
+    position: fixed;
+    left: 10%;
+    right: 10%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+  }
+.memories a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: opacity 0.3s;
+  }
+table {
+  margin: 22px auto; /* 20px auto bedzie wysrodkowac */
+  border: 2px white;      /* 1px solid gray;  3px dotted #F00; obramowanie calej tabeli } */
+  
+  caption-side: top; /* {  bottom; umiejscowanie tytułu tabeli } */
+  width: 70%;
+  background-color: white;
+  border-spacing: 2px;
+  table-layout: fixed; 
+
+}
+th, td {
+    border: 2px white; /* 1px solid green;  3px dashed #F00; obramowanie komórki */
+    text-align: center; /*text-align: left; vertical-align: top; wyrównanie zawartości komórki w poziomie (left, center, right, justify) / pionie (top, middle, bottom). */
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+  }
+.blue {
+  background-color: DeepSkyBlue         ;
+}
+.green {
+  background-color: YellowGreen ;
+}
+.lightpink {
+  background-color: PaleVioletRed  ;
+}
+.pink {
+  background-color: MediumVioletRed   ;
+
+}
+.cyan {
+  background-color: MediumTurquoise  ;
+
+}
+.orange {
+  background-color: DarkOrange ;
+}
+thead { 
+  background-color: Lavender;
+}
+tbody { 
+  color: white;
+  font-size: 15px;
+  
+}
+td {
+  border-bottom: 10px solid white; 
+}
+
+</style> 
+</head>
+<body>
+<h1>HTML Table Gallery</h1>
+<h2>Tablica 8</h2>
+<table >
+  <thead> 
+    <tr> 
+      <th>Monday</th> 
+      <th>Tuesday </th> 
+      <th>Wednesday</th> 
+      <th>Thursday</th> 
+      <th>Friday </th> 
+      <th>Saturday</th>
+      <th>Sunday</th> 
+    </tr> 
+  </thead>  
+  <tbody> 
+    <tr> 
+      <td class="blue">Public Swim<br class="time">6:30-10:30</td>
+      <td class="blue">Public Swim<br class="time">6:30-09:00</td>
+      <td class="blue">Public Swim<br class="time">6:30-09:00</td>
+      <td class="blue">Public Swim<br class="time">6:30-11:15</td>
+      <td class="blue">Public Swim<br class="time">6:30-09:00</td>
+      <td class="green">Lane Swim<br class="time">8:00-09:00</td>
+      <td class="green">Lane Swim<br class="time">8:00-09:00</td>
+    </tr>
+    <tr>
+      <td class="lightpink">Aquacise<br class="time">10:30-11:15</td>
+      <td class="pink">Aqua Jog<br class="time">09:15-10:00</td>
+      <td class="cyan">Education Swimming Lessons<br class="time">09:00-12:00</td>
+      <td class="lightpink">Aquacise<br class="time">11:15-12:00</td>
+      <td class="cyan">Education Swimming Lessons<br class="time">09:00-12:00</td>
+      <td class="orange">Oldham Active Kids Swimming Lessons<br class="time">09:00-13:00</td>
+      <td class="blue">Public Swim<br class="time">09:00-11:00</td>
+    </tr>
+    <tr> 
+      <td class="green">Lane Swim<br class="time">11:30-13:00</td>
+      <td class="pink">Parent & Baby Class<br class="time">09:30-10:15</td>
+      <td class="green">Lane Swim<br class="time">12:00-13:00</td>
+      <td class="green">Lane Swim<br class="time">12:00-13:00</td>
+      <td class="green">Lane Swim<br class="time">12:00-13:00</td>
+      <td class="pink">Parent & Baby Class<br class="time">12:00-12:45</td>
+      <td class="pink">Aquacise<br class="time">11:00-11:45</td>
+    </tr>
+    <tr>
+      <td>will</td>
+      <td  >see</td>
+    </tr>
+    <tr>
+      <td> in</td>
+      <td >a few</td>
+      <td>minutes!</td>
+    </tr>
+
+  </tbody>
+</table>
+
+<div class="memories">
+    <a href="table7.html">Previous</a>
+    <a href="table9.html">Next</a>
+</div>
+</body>

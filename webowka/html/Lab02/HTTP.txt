@@ -1,0 +1,1 @@
+Protokół HTTP to protokół webowy, który służy do komunikacji między klientem a serwerem i jest fundamentem internetu. Działa ono na podstawie modelu Request-Response. W tym modelu klient najpierw wysyła zapytanie do serwera (Request), a później serwer przetwarza to żądanie i zwraca odpowiedź (Response).

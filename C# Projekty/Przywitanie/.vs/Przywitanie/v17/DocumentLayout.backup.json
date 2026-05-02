@@ -1,0 +1,1006 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\Przywitanie\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{868E1DD8-9FE3-47A5-99E0-5AD2E6826325}|6.11\\6.11.csproj|c:\\users\\user\\source\\repos\\przywitanie\\6.11\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E1DD8-9FE3-47A5-99E0-5AD2E6826325}|6.11\\6.11.csproj|solutionrelative:6.11\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC9B3C94-7230-411A-AE77-53846D92482E}|Przywitanie\\Przywitanie.csproj|c:\\users\\user\\source\\repos\\przywitanie\\przywitanie\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC9B3C94-7230-411A-AE77-53846D92482E}|Przywitanie\\Przywitanie.csproj|solutionrelative:przywitanie\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E1DD8-9FE3-47A5-99E0-5AD2E6826325}|6.11\\6.11.csproj|c:\\users\\user\\source\\repos\\przywitanie\\6.11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E1DD8-9FE3-47A5-99E0-5AD2E6826325}|6.11\\6.11.csproj|solutionrelative:6.11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{868E1DD8-9FE3-47A5-99E0-5AD2E6826325}|6.11\\6.11.csproj|c:\\users\\user\\source\\repos\\przywitanie\\6.11\\menuproste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{868E1DD8-9FE3-47A5-99E0-5AD2E6826325}|6.11\\6.11.csproj|solutionrelative:6.11\\menuproste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA98678-8629-49E9-B2AF-B709955D31B5}|6.10\\6.10.csproj|c:\\users\\user\\source\\repos\\przywitanie\\6.10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA98678-8629-49E9-B2AF-B709955D31B5}|6.10\\6.10.csproj|solutionrelative:6.10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C0A7B4C-4498-474B-9FC4-F8BCBB905627}|6.1\\6.1.csproj|c:\\users\\user\\source\\repos\\przywitanie\\6.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C0A7B4C-4498-474B-9FC4-F8BCBB905627}|6.1\\6.1.csproj|solutionrelative:6.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E55AEF4-8C86-4B5E-965D-0733E6ECCDBB}|6.2\\6.2.csproj|c:\\users\\user\\source\\repos\\przywitanie\\6.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E55AEF4-8C86-4B5E-965D-0733E6ECCDBB}|6.2\\6.2.csproj|solutionrelative:6.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E19A8429-B6C0-488F-AA3B-EB0B5537B309}|6.5\\6.5.csproj|c:\\users\\user\\source\\repos\\przywitanie\\6.5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E19A8429-B6C0-488F-AA3B-EB0B5537B309}|6.5\\6.5.csproj|solutionrelative:6.5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6059A277-FAE7-44C0-93B3-358DC819B6BA}|6.4\\6.4.csproj|c:\\users\\user\\source\\repos\\przywitanie\\6.4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6059A277-FAE7-44C0-93B3-358DC819B6BA}|6.4\\6.4.csproj|solutionrelative:6.4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD47A0A8-D795-4871-BC6E-A1FD75F4D10F}|6.8\\6.8.csproj|c:\\users\\user\\source\\repos\\przywitanie\\6.8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD47A0A8-D795-4871-BC6E-A1FD75F4D10F}|6.8\\6.8.csproj|solutionrelative:6.8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65600D90-CB23-4D70-9EB7-D32E19DCC79E}|6.9\\6.9.csproj|c:\\users\\user\\source\\repos\\przywitanie\\6.9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65600D90-CB23-4D70-9EB7-D32E19DCC79E}|6.9\\6.9.csproj|solutionrelative:6.9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0769FA6C-392C-4969-BA3B-6702D47BD3B6}|5.10\\5.10.csproj|c:\\users\\user\\source\\repos\\przywitanie\\5.10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0769FA6C-392C-4969-BA3B-6702D47BD3B6}|5.10\\5.10.csproj|solutionrelative:5.10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE435334-F9CB-4591-9275-671F6D66225F}|5.9\\5.9.csproj|c:\\users\\user\\source\\repos\\przywitanie\\5.9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE435334-F9CB-4591-9275-671F6D66225F}|5.9\\5.9.csproj|solutionrelative:5.9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D3ABD7-93D2-4105-92E5-8ABDC8055E88}|5.8\\5.8.csproj|c:\\users\\user\\source\\repos\\przywitanie\\5.8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D3ABD7-93D2-4105-92E5-8ABDC8055E88}|5.8\\5.8.csproj|solutionrelative:5.8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41371C0E-8F8C-40BF-8F44-FD164D524EEB}|5.7\\5.7.csproj|c:\\users\\user\\source\\repos\\przywitanie\\5.7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41371C0E-8F8C-40BF-8F44-FD164D524EEB}|5.7\\5.7.csproj|solutionrelative:5.7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4F4294-390C-4E72-A583-DD932E009CDE}|5.6\\5.6.csproj|c:\\users\\user\\source\\repos\\przywitanie\\5.6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B4F4294-390C-4E72-A583-DD932E009CDE}|5.6\\5.6.csproj|solutionrelative:5.6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F26FE9B5-0FFB-4637-A1B7-17DFC4F64D01}|5.5\\5.5.csproj|c:\\users\\user\\source\\repos\\przywitanie\\5.5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F26FE9B5-0FFB-4637-A1B7-17DFC4F64D01}|5.5\\5.5.csproj|solutionrelative:5.5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E226E47-D2ED-4D11-AF6F-307717A6C4B5}|5.4\\5.4.csproj|c:\\users\\user\\source\\repos\\przywitanie\\5.4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E226E47-D2ED-4D11-AF6F-307717A6C4B5}|5.4\\5.4.csproj|solutionrelative:5.4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1945F9D2-FDED-447E-8C30-36E6A83FE57F}|5.3\\5.3.csproj|c:\\users\\user\\source\\repos\\przywitanie\\5.3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1945F9D2-FDED-447E-8C30-36E6A83FE57F}|5.3\\5.3.csproj|solutionrelative:5.3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D4AB27F-94D9-4112-A89F-0E005A0C21F1}|5.2\\5.2.csproj|c:\\users\\user\\source\\repos\\przywitanie\\5.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D4AB27F-94D9-4112-A89F-0E005A0C21F1}|5.2\\5.2.csproj|solutionrelative:5.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7774EC0-0936-48BF-969F-4B65DA47ED6B}|5.1\\5.1.csproj|c:\\users\\user\\source\\repos\\przywitanie\\5.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7774EC0-0936-48BF-969F-4B65DA47ED6B}|5.1\\5.1.csproj|solutionrelative:5.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E471A289-C89A-41E9-B5F3-F3569E307AD1}|4.15\\4.15.csproj|c:\\users\\user\\source\\repos\\przywitanie\\4.15\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E471A289-C89A-41E9-B5F3-F3569E307AD1}|4.15\\4.15.csproj|solutionrelative:4.15\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A25B3C5-73FC-4D53-A849-5BC1061A1D8C}|3.a.\\3.a.csproj|c:\\users\\user\\source\\repos\\przywitanie\\3.a.\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A25B3C5-73FC-4D53-A849-5BC1061A1D8C}|3.a.\\3.a.csproj|solutionrelative:3.a.\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7B2166F-DDFE-41ED-9151-AC7261DC9A25}|4.13\\4.13.csproj|c:\\users\\user\\source\\repos\\przywitanie\\4.13\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7B2166F-DDFE-41ED-9151-AC7261DC9A25}|4.13\\4.13.csproj|solutionrelative:4.13\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2AF1640-E35A-4C5F-9446-DA16D3611A31}|4.14\\4.14.csproj|c:\\users\\user\\source\\repos\\przywitanie\\4.14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2AF1640-E35A-4C5F-9446-DA16D3611A31}|4.14\\4.14.csproj|solutionrelative:4.14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4E45B2D-03FB-405F-A794-33D138C22B6B}|4.11\\4.11.csproj|c:\\users\\user\\source\\repos\\przywitanie\\4.11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4E45B2D-03FB-405F-A794-33D138C22B6B}|4.11\\4.11.csproj|solutionrelative:4.11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F49A15-28F2-4DD8-A177-33F445DE2A43}|4.12\\4.12.csproj|c:\\users\\user\\source\\repos\\przywitanie\\4.12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16F49A15-28F2-4DD8-A177-33F445DE2A43}|4.12\\4.12.csproj|solutionrelative:4.12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F5007C-7A6C-4724-96BD-37E4C870F8D3}|4\\4.csproj|c:\\users\\user\\source\\repos\\przywitanie\\4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16F5007C-7A6C-4724-96BD-37E4C870F8D3}|4\\4.csproj|solutionrelative:4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54878EA8-6ECB-47EB-AD14-06E3213BDDE7}|3.11\\3.11.csproj|c:\\users\\user\\source\\repos\\przywitanie\\3.11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54878EA8-6ECB-47EB-AD14-06E3213BDDE7}|3.11\\3.11.csproj|solutionrelative:3.11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A86E59C1-3721-4446-AEBA-F3F805787D8A}|3.5\\3.5.csproj|c:\\users\\user\\source\\repos\\przywitanie\\3.5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A86E59C1-3721-4446-AEBA-F3F805787D8A}|3.5\\3.5.csproj|solutionrelative:3.5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0547C920-A120-458E-B43F-5F85D17F6926}|3.8\\3.8.csproj|c:\\users\\user\\source\\repos\\przywitanie\\3.8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0547C920-A120-458E-B43F-5F85D17F6926}|3.8\\3.8.csproj|solutionrelative:3.8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{876CFDD9-A2D1-40B6-B989-C610A5C0F99F}|4.9\\4.9.csproj|c:\\users\\user\\source\\repos\\przywitanie\\4.9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{876CFDD9-A2D1-40B6-B989-C610A5C0F99F}|4.9\\4.9.csproj|solutionrelative:4.9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6BCEBC-2F57-43CD-BAFC-5B39B09FDC2A}|4.8\\4.8.csproj|c:\\users\\user\\source\\repos\\przywitanie\\4.8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6BCEBC-2F57-43CD-BAFC-5B39B09FDC2A}|4.8\\4.8.csproj|solutionrelative:4.8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E24E767-B47B-4970-A536-CC8A55E75B8A}|4.5\\4.5.csproj|c:\\users\\user\\source\\repos\\przywitanie\\4.5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E24E767-B47B-4970-A536-CC8A55E75B8A}|4.5\\4.5.csproj|solutionrelative:4.5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23EAB38C-2893-43B2-B08E-5E955C2F54F6}|4.7\\4.7.csproj|c:\\users\\user\\source\\repos\\przywitanie\\4.7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23EAB38C-2893-43B2-B08E-5E955C2F54F6}|4.7\\4.7.csproj|solutionrelative:4.7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C71012-3C83-465F-B87F-C0AF44ACEF45}|4.6\\4.6.csproj|c:\\users\\user\\source\\repos\\przywitanie\\4.6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14C71012-3C83-465F-B87F-C0AF44ACEF45}|4.6\\4.6.csproj|solutionrelative:4.6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A765C4C2-D331-4C7D-8E21-7019F1FB096E}|4.10\\4.10.csproj|c:\\users\\user\\source\\repos\\przywitanie\\4.10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A765C4C2-D331-4C7D-8E21-7019F1FB096E}|4.10\\4.10.csproj|solutionrelative:4.10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39D8DC83-83EB-43C7-8D2F-74D4F8C8781D}|4.4\\4.4.csproj|c:\\users\\user\\source\\repos\\przywitanie\\4.4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39D8DC83-83EB-43C7-8D2F-74D4F8C8781D}|4.4\\4.4.csproj|solutionrelative:4.4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BAC9A1B-6144-4919-B77D-BE106F1CB4D9}|2.3 Zad\\2.3 Zad.csproj|c:\\users\\user\\source\\repos\\przywitanie\\2.3 zad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BAC9A1B-6144-4919-B77D-BE106F1CB4D9}|2.3 Zad\\2.3 Zad.csproj|solutionrelative:2.3 zad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9D948CF-2117-4C27-B9A5-E09A842F7A3A}|4.3\\4.3.csproj|c:\\users\\user\\source\\repos\\przywitanie\\4.3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9D948CF-2117-4C27-B9A5-E09A842F7A3A}|4.3\\4.3.csproj|solutionrelative:4.3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84FE7F3D-C8EC-48C4-A05A-36D93294D255}|4.1\\4.1.csproj|c:\\users\\user\\source\\repos\\przywitanie\\4.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84FE7F3D-C8EC-48C4-A05A-36D93294D255}|4.1\\4.1.csproj|solutionrelative:4.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477A1533-C963-4AC7-A52A-CC7BA1DF9F35}|4.2\\4.2.csproj|c:\\users\\user\\source\\repos\\przywitanie\\4.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477A1533-C963-4AC7-A52A-CC7BA1DF9F35}|4.2\\4.2.csproj|solutionrelative:4.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0877471D-E383-431B-9487-6785C1A07307}|3.15 zad\\3.15 zad.csproj|c:\\users\\user\\source\\repos\\przywitanie\\3.15 zad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0877471D-E383-431B-9487-6785C1A07307}|3.15 zad\\3.15 zad.csproj|solutionrelative:3.15 zad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5650A98A-7DF3-4E62-9AB3-6FD0029932F2}|3.14 zad\\3.14 zad.csproj|c:\\users\\user\\source\\repos\\przywitanie\\3.14 zad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5650A98A-7DF3-4E62-9AB3-6FD0029932F2}|3.14 zad\\3.14 zad.csproj|solutionrelative:3.14 zad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5817FB5-2BC4-40D5-9943-77EBCA28BC42}|3.14\\3.14.csproj|c:\\users\\user\\source\\repos\\przywitanie\\3.14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5817FB5-2BC4-40D5-9943-77EBCA28BC42}|3.14\\3.14.csproj|solutionrelative:3.14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C79E577-AB19-4804-AAF9-36C50A1BBE66}|3.10\\3.10.csproj|c:\\users\\user\\source\\repos\\przywitanie\\3.10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C79E577-AB19-4804-AAF9-36C50A1BBE66}|3.10\\3.10.csproj|solutionrelative:3.10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B5573CD-8A19-4938-B442-FFAB25280BBC}|3.12\\3.12.csproj|c:\\users\\user\\source\\repos\\przywitanie\\3.12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B5573CD-8A19-4938-B442-FFAB25280BBC}|3.12\\3.12.csproj|solutionrelative:3.12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEBA744B-9269-4250-8971-753092272C6D}|2.4-2.9\\2.4-2.9.csproj|c:\\users\\user\\source\\repos\\przywitanie\\2.4-2.9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEBA744B-9269-4250-8971-753092272C6D}|2.4-2.9\\2.4-2.9.csproj|solutionrelative:2.4-2.9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98AB2E02-0615-4EC5-870F-51384029933E}|3.9\\3.9.csproj|c:\\users\\user\\source\\repos\\przywitanie\\3.9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98AB2E02-0615-4EC5-870F-51384029933E}|3.9\\3.9.csproj|solutionrelative:3.9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4A226F-DDF4-4A63-913A-3240070AA2F5}|3.6\\3.6.csproj|c:\\users\\user\\source\\repos\\przywitanie\\3.6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B4A226F-DDF4-4A63-913A-3240070AA2F5}|3.6\\3.6.csproj|solutionrelative:3.6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF1E71D1-0809-4701-B3EC-4EF7BADA250A}|2.4\\2.4.csproj|c:\\users\\user\\source\\repos\\przywitanie\\2.4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF1E71D1-0809-4701-B3EC-4EF7BADA250A}|2.4\\2.4.csproj|solutionrelative:2.4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{757B0931-FC6F-46A9-86DB-3D82E9B50DB6}|3.3\\3.3.csproj|c:\\users\\user\\source\\repos\\przywitanie\\3.3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{757B0931-FC6F-46A9-86DB-3D82E9B50DB6}|3.3\\3.3.csproj|solutionrelative:3.3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A6BD4B7-524F-4D56-943C-1C596AD74787}|3\\3.csproj|c:\\users\\user\\source\\repos\\przywitanie\\3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A6BD4B7-524F-4D56-943C-1C596AD74787}|3\\3.csproj|solutionrelative:3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA56073C-F481-4706-91F5-496F4CCED575}|3.1\\3.1.csproj|c:\\users\\user\\source\\repos\\przywitanie\\3.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA56073C-F481-4706-91F5-496F4CCED575}|3.1\\3.1.csproj|solutionrelative:3.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF46F384-27F7-4D5E-8721-B968726837F3}|3.2\\3.2.csproj|c:\\users\\user\\source\\repos\\przywitanie\\3.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF46F384-27F7-4D5E-8721-B968726837F3}|3.2\\3.2.csproj|solutionrelative:3.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C9F717E-2879-41E5-A997-4F53D33D5341}|2.10\\2.10.csproj|c:\\users\\user\\source\\repos\\przywitanie\\2.10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C9F717E-2879-41E5-A997-4F53D33D5341}|2.10\\2.10.csproj|solutionrelative:2.10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCB3CE21-F167-4CE3-9C9B-3E6BA787F66F}|2.3\\2.3.csproj|c:\\users\\user\\source\\repos\\przywitanie\\2.3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCB3CE21-F167-4CE3-9C9B-3E6BA787F66F}|2.3\\2.3.csproj|solutionrelative:2.3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D13E7AA-3BA1-4A8D-863D-51BEFCE53CA9}|2.1\\2.1.csproj|c:\\users\\user\\source\\repos\\przywitanie\\2.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D13E7AA-3BA1-4A8D-863D-51BEFCE53CA9}|2.1\\2.1.csproj|solutionrelative:2.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\6.11\\Menu.cs",
+              "RelativeDocumentMoniker": "6.11\\Menu.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\6.11\\Menu.cs*",
+              "RelativeToolTip": "6.11\\Menu.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T14:13:51.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuProste.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\6.11\\MenuProste.cs",
+              "RelativeDocumentMoniker": "6.11\\MenuProste.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\6.11\\MenuProste.cs",
+              "RelativeToolTip": "6.11\\MenuProste.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wCcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T14:02:34.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\6.11\\Program.cs",
+              "RelativeDocumentMoniker": "6.11\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\6.11\\Program.cs",
+              "RelativeToolTip": "6.11\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T13:45:40.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\6.10\\Program.cs",
+              "RelativeDocumentMoniker": "6.10\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\6.10\\Program.cs",
+              "RelativeToolTip": "6.10\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T10:43:03.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\6.8\\Program.cs",
+              "RelativeDocumentMoniker": "6.8\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\6.8\\Program.cs",
+              "RelativeToolTip": "6.8\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwDkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T10:07:28.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\6.5\\Program.cs",
+              "RelativeDocumentMoniker": "6.5\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\6.5\\Program.cs",
+              "RelativeToolTip": "6.5\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T08:42:39.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\Przywitanie\\Program.cs",
+              "RelativeDocumentMoniker": "Przywitanie\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\Przywitanie\\Program.cs",
+              "RelativeToolTip": "Przywitanie\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T09:55:44.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\6.9\\Program.cs",
+              "RelativeDocumentMoniker": "6.9\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\6.9\\Program.cs",
+              "RelativeToolTip": "6.9\\Program.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAcwCgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T10:38:10.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\6.4\\Program.cs",
+              "RelativeDocumentMoniker": "6.4\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\6.4\\Program.cs",
+              "RelativeToolTip": "6.4\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T16:57:55.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\6.2\\Program.cs",
+              "RelativeDocumentMoniker": "6.2\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\6.2\\Program.cs",
+              "RelativeToolTip": "6.2\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAiwDsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T15:09:31.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\6.1\\Program.cs",
+              "RelativeDocumentMoniker": "6.1\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\6.1\\Program.cs",
+              "RelativeToolTip": "6.1\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAACYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T14:34:11.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\5.10\\Program.cs",
+              "RelativeDocumentMoniker": "5.10\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\5.10\\Program.cs",
+              "RelativeToolTip": "5.10\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T12:47:09.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\5.9\\Program.cs",
+              "RelativeDocumentMoniker": "5.9\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\5.9\\Program.cs",
+              "RelativeToolTip": "5.9\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAxwBQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T12:15:33.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\5.8\\Program.cs",
+              "RelativeDocumentMoniker": "5.8\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\5.8\\Program.cs",
+              "RelativeToolTip": "5.8\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T12:03:51.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\5.7\\Program.cs",
+              "RelativeDocumentMoniker": "5.7\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\5.7\\Program.cs",
+              "RelativeToolTip": "5.7\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T11:41:05.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\5.6\\Program.cs",
+              "RelativeDocumentMoniker": "5.6\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\5.6\\Program.cs",
+              "RelativeToolTip": "5.6\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T11:31:04.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\5.5\\Program.cs",
+              "RelativeDocumentMoniker": "5.5\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\5.5\\Program.cs",
+              "RelativeToolTip": "5.5\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T11:22:51.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\5.4\\Program.cs",
+              "RelativeDocumentMoniker": "5.4\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\5.4\\Program.cs",
+              "RelativeToolTip": "5.4\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wCsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T14:59:07.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\5.3\\Program.cs",
+              "RelativeDocumentMoniker": "5.3\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\5.3\\Program.cs",
+              "RelativeToolTip": "5.3\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T14:35:00.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\5.2\\Program.cs",
+              "RelativeDocumentMoniker": "5.2\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\5.2\\Program.cs",
+              "RelativeToolTip": "5.2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T14:16:25.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\5.1\\Program.cs",
+              "RelativeDocumentMoniker": "5.1\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\5.1\\Program.cs",
+              "RelativeToolTip": "5.1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T14:03:27.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\4.15\\Program.cs",
+              "RelativeDocumentMoniker": "4.15\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\4.15\\Program.cs",
+              "RelativeToolTip": "4.15\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAD0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T16:41:24.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\4.11\\Program.cs",
+              "RelativeDocumentMoniker": "4.11\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\4.11\\Program.cs",
+              "RelativeToolTip": "4.11\\Program.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAgwHwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T13:00:07.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\4.14\\Program.cs",
+              "RelativeDocumentMoniker": "4.14\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\4.14\\Program.cs",
+              "RelativeToolTip": "4.14\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T14:33:41.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\4.13\\Program.cs",
+              "RelativeDocumentMoniker": "4.13\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\4.13\\Program.cs",
+              "RelativeToolTip": "4.13\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T11:26:26.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\4\\Program.cs",
+              "RelativeDocumentMoniker": "4\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\4\\Program.cs",
+              "RelativeToolTip": "4\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T13:46:56.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\3.a\\Program.cs",
+              "RelativeDocumentMoniker": "3.a\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\3.a\\Program.cs",
+              "RelativeToolTip": "3.a\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T15:19:17.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\3.8\\Program.cs",
+              "RelativeDocumentMoniker": "3.8\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\3.8\\Program.cs",
+              "RelativeToolTip": "3.8\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T17:56:54.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\3.5\\Program.cs",
+              "RelativeDocumentMoniker": "3.5\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\3.5\\Program.cs",
+              "RelativeToolTip": "3.5\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T17:38:51.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\3.11\\Program.cs",
+              "RelativeDocumentMoniker": "3.11\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\3.11\\Program.cs",
+              "RelativeToolTip": "3.11\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T12:08:08.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\4.12\\Program.cs",
+              "RelativeDocumentMoniker": "4.12\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\4.12\\Program.cs",
+              "RelativeToolTip": "4.12\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwBIAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T14:22:26.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\4.9\\Program.cs",
+              "RelativeDocumentMoniker": "4.9\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\4.9\\Program.cs",
+              "RelativeToolTip": "4.9\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T11:31:22.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\4.8\\Program.cs",
+              "RelativeDocumentMoniker": "4.8\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\4.8\\Program.cs",
+              "RelativeToolTip": "4.8\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA7wCUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T11:06:50.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\4.5\\Program.cs",
+              "RelativeDocumentMoniker": "4.5\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\4.5\\Program.cs",
+              "RelativeToolTip": "4.5\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T16:26:15.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\4.7\\Program.cs",
+              "RelativeDocumentMoniker": "4.7\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\4.7\\Program.cs",
+              "RelativeToolTip": "4.7\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T10:51:35.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\4.6\\Program.cs",
+              "RelativeDocumentMoniker": "4.6\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\4.6\\Program.cs",
+              "RelativeToolTip": "4.6\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T16:40:34.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\4.10\\Program.cs",
+              "RelativeDocumentMoniker": "4.10\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\4.10\\Program.cs",
+              "RelativeToolTip": "4.10\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T12:35:11.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\4.4\\Program.cs",
+              "RelativeDocumentMoniker": "4.4\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\4.4\\Program.cs",
+              "RelativeToolTip": "4.4\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T12:42:12.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\4.1\\Program.cs",
+              "RelativeDocumentMoniker": "4.1\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\4.1\\Program.cs",
+              "RelativeToolTip": "4.1\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T06:30:43.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\3.15 zad\\Program.cs",
+              "RelativeDocumentMoniker": "3.15 zad\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\3.15 zad\\Program.cs",
+              "RelativeToolTip": "3.15 zad\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T14:23:06.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\3.14 zad\\Program.cs",
+              "RelativeDocumentMoniker": "3.14 zad\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\3.14 zad\\Program.cs",
+              "RelativeToolTip": "3.14 zad\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBsAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T12:53:29.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\3.14\\Program.cs",
+              "RelativeDocumentMoniker": "3.14\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\3.14\\Program.cs",
+              "RelativeToolTip": "3.14\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T12:24:02.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\2.3 Zad\\Program.cs",
+              "RelativeDocumentMoniker": "2.3 Zad\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\2.3 Zad\\Program.cs",
+              "RelativeToolTip": "2.3 Zad\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T11:13:06.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\4.2\\Program.cs",
+              "RelativeDocumentMoniker": "4.2\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\4.2\\Program.cs",
+              "RelativeToolTip": "4.2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T12:05:57.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\3.12\\Program.cs",
+              "RelativeDocumentMoniker": "3.12\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\3.12\\Program.cs",
+              "RelativeToolTip": "3.12\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T12:18:00.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\3.10\\Program.cs",
+              "RelativeDocumentMoniker": "3.10\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\3.10\\Program.cs",
+              "RelativeToolTip": "3.10\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T12:01:32.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\4.3\\Program.cs",
+              "RelativeDocumentMoniker": "4.3\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\4.3\\Program.cs",
+              "RelativeToolTip": "4.3\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T12:20:10.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\3.9\\Program.cs",
+              "RelativeDocumentMoniker": "3.9\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\3.9\\Program.cs",
+              "RelativeToolTip": "3.9\\Program.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAgwEAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T18:03:43.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\3.6\\Program.cs",
+              "RelativeDocumentMoniker": "3.6\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\3.6\\Program.cs",
+              "RelativeToolTip": "3.6\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T17:46:09.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\2.4\\Program.cs",
+              "RelativeDocumentMoniker": "2.4\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\2.4\\Program.cs",
+              "RelativeToolTip": "2.4\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wCgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T17:13:52.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\3.3\\Program.cs",
+              "RelativeDocumentMoniker": "3.3\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\3.3\\Program.cs",
+              "RelativeToolTip": "3.3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T17:08:55.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\2.4-2.9\\Program.cs",
+              "RelativeDocumentMoniker": "2.4-2.9\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\2.4-2.9\\Program.cs",
+              "RelativeToolTip": "2.4-2.9\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T11:18:37.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\3.2\\Program.cs",
+              "RelativeDocumentMoniker": "3.2\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\3.2\\Program.cs",
+              "RelativeToolTip": "3.2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T17:05:17.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\3.1\\Program.cs",
+              "RelativeDocumentMoniker": "3.1\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\3.1\\Program.cs",
+              "RelativeToolTip": "3.1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T16:39:07.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\3\\Program.cs",
+              "RelativeDocumentMoniker": "3\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\3\\Program.cs",
+              "RelativeToolTip": "3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T15:14:40.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\2.10\\Program.cs",
+              "RelativeDocumentMoniker": "2.10\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\2.10\\Program.cs",
+              "RelativeToolTip": "2.10\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T11:37:31.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\2.3\\Program.cs",
+              "RelativeDocumentMoniker": "2.3\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\2.3\\Program.cs",
+              "RelativeToolTip": "2.3\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwBAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T10:53:19.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Przywitanie\\2.1\\Program.cs",
+              "RelativeDocumentMoniker": "2.1\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Przywitanie\\2.1\\Program.cs",
+              "RelativeToolTip": "2.1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T10:46:30.261Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

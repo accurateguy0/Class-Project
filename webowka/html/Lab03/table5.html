@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+ <meta charset="UTF-8">
+<title>Table Gallery</title>
+<style>
+h1 {
+    font-weight: 200;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+ h2 {
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 40px;
+  }
+.memories {
+    position: fixed;
+    left: 10%;
+    right: 10%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+  }
+.memories a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: opacity 0.3s;
+  }
+table {
+  margin: 20px; /* 20px auto bedzie wysrodkowac */
+  caption-side: top; /* {  bottom; umiejscowanie tytułu tabeli } */
+  vertical-align: top;
+  border-spacing: 3px;
+  border-top: none;
+  border-left: none;
+  border-bottom: 2px solid gray;
+  border-right: 2px solid gray;
+}
+.ta {
+  width: 40%;
+  
+}
+
+.tb {
+  width: 60%;
+}
+
+td {
+    height: 60px;
+    border-bottom: none;
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+}
+tbody{
+  padding: 10px;
+  border-right: none;
+}
+.meow {
+  width: 400px;
+  height: 100px;
+}
+.short-row td {
+    height: 25px; 
+}
+
+</style> 
+</head>
+<body>
+<h1>HTML Table Gallery</h1>
+<h2>Tablica 5</h2>
+<table border="1" class="ta">  
+<tr><td>komórka 1</td><td >komórka 2</td></tr> 
+<tr><td>komórka 3</td><td>komórka 4</td></tr>
+
+</table>
+<table border="1" class="tb">  
+<tr class="short-row"><td>komórka 1</td><td >komórka 2</td></tr> 
+<tr class="meow"><td>komórka 3</td><td >&lt;td width="400" height="100"&gt;</td></tr>
+
+</table>  
+
+<div class="memories">
+    <a href="table4.html">Previous</a>
+    <a href="table6.html">Next</a>
+</div>
+</body>

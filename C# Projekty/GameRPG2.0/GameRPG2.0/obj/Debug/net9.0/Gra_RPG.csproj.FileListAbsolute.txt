@@ -1,0 +1,29 @@
+E:\Kinga_studia_TUTAJ_WRZUCAJ_PLIKI!\GameRPG\bin\Debug\net9.0\Gra_RPG.exe
+E:\Kinga_studia_TUTAJ_WRZUCAJ_PLIKI!\GameRPG\bin\Debug\net9.0\03 - battle_qiecuo.wav
+E:\Kinga_studia_TUTAJ_WRZUCAJ_PLIKI!\GameRPG\bin\Debug\net9.0\06 - huajishijian.wav
+E:\Kinga_studia_TUTAJ_WRZUCAJ_PLIKI!\GameRPG\bin\Debug\net9.0\07 - tufashijian.wav
+E:\Kinga_studia_TUTAJ_WRZUCAJ_PLIKI!\GameRPG\bin\Debug\net9.0\AtNight.wav
+E:\Kinga_studia_TUTAJ_WRZUCAJ_PLIKI!\GameRPG\bin\Debug\net9.0\Male's_grunt.wav
+E:\Kinga_studia_TUTAJ_WRZUCAJ_PLIKI!\GameRPG\bin\Debug\net9.0\textscroll.wav
+E:\Kinga_studia_TUTAJ_WRZUCAJ_PLIKI!\GameRPG\bin\Debug\net9.0\Woman's_grunt.wav
+E:\Kinga_studia_TUTAJ_WRZUCAJ_PLIKI!\GameRPG\bin\Debug\net9.0\Gra_RPG.deps.json
+E:\Kinga_studia_TUTAJ_WRZUCAJ_PLIKI!\GameRPG\bin\Debug\net9.0\Gra_RPG.runtimeconfig.json
+E:\Kinga_studia_TUTAJ_WRZUCAJ_PLIKI!\GameRPG\bin\Debug\net9.0\Gra_RPG.dll
+E:\Kinga_studia_TUTAJ_WRZUCAJ_PLIKI!\GameRPG\bin\Debug\net9.0\Gra_RPG.pdb
+E:\Kinga_studia_TUTAJ_WRZUCAJ_PLIKI!\GameRPG\bin\Debug\net9.0\NAudio.dll
+E:\Kinga_studia_TUTAJ_WRZUCAJ_PLIKI!\GameRPG\bin\Debug\net9.0\NAudio.Asio.dll
+E:\Kinga_studia_TUTAJ_WRZUCAJ_PLIKI!\GameRPG\bin\Debug\net9.0\NAudio.Core.dll
+E:\Kinga_studia_TUTAJ_WRZUCAJ_PLIKI!\GameRPG\bin\Debug\net9.0\NAudio.Midi.dll
+E:\Kinga_studia_TUTAJ_WRZUCAJ_PLIKI!\GameRPG\bin\Debug\net9.0\NAudio.Wasapi.dll
+E:\Kinga_studia_TUTAJ_WRZUCAJ_PLIKI!\GameRPG\bin\Debug\net9.0\NAudio.WinMM.dll
+E:\Kinga_studia_TUTAJ_WRZUCAJ_PLIKI!\GameRPG\bin\Debug\net9.0\System.Windows.Extensions.dll
+E:\Kinga_studia_TUTAJ_WRZUCAJ_PLIKI!\GameRPG\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Windows.Extensions.dll
+E:\Kinga_studia_TUTAJ_WRZUCAJ_PLIKI!\GameRPG\obj\Debug\net9.0\Gra_RPG.csproj.AssemblyReference.cache
+E:\Kinga_studia_TUTAJ_WRZUCAJ_PLIKI!\GameRPG\obj\Debug\net9.0\Gra_RPG.GeneratedMSBuildEditorConfig.editorconfig
+E:\Kinga_studia_TUTAJ_WRZUCAJ_PLIKI!\GameRPG\obj\Debug\net9.0\Gra_RPG.csproj.CoreCompileInputs.cache
+E:\Kinga_studia_TUTAJ_WRZUCAJ_PLIKI!\GameRPG\obj\Debug\net9.0\Gra_RPG.csproj.Up2Date
+E:\Kinga_studia_TUTAJ_WRZUCAJ_PLIKI!\GameRPG\obj\Debug\net9.0\Gra_RPG.dll
+E:\Kinga_studia_TUTAJ_WRZUCAJ_PLIKI!\GameRPG\obj\Debug\net9.0\refint\Gra_RPG.dll
+E:\Kinga_studia_TUTAJ_WRZUCAJ_PLIKI!\GameRPG\obj\Debug\net9.0\Gra_RPG.pdb
+E:\Kinga_studia_TUTAJ_WRZUCAJ_PLIKI!\GameRPG\obj\Debug\net9.0\Gra_RPG.genruntimeconfig.cache
+E:\Kinga_studia_TUTAJ_WRZUCAJ_PLIKI!\GameRPG\obj\Debug\net9.0\ref\Gra_RPG.dll

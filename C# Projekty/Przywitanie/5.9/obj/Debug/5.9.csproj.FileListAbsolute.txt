@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\Przywitanie\5.9\bin\Debug\5.9.exe.config
+C:\Users\User\source\repos\Przywitanie\5.9\bin\Debug\5.9.exe
+C:\Users\User\source\repos\Przywitanie\5.9\bin\Debug\5.9.pdb
+C:\Users\User\source\repos\Przywitanie\5.9\obj\Debug\5.9.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Przywitanie\5.9\obj\Debug\5.9.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Przywitanie\5.9\obj\Debug\5.9.exe
+C:\Users\User\source\repos\Przywitanie\5.9\obj\Debug\5.9.pdb

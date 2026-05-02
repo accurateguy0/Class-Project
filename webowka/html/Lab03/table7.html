@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+ <meta charset="UTF-8">
+<title>Table Gallery</title>
+<style>
+h1 {
+    font-weight: 200;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+ h2 {
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 40px;
+  }
+.memories {
+    position: fixed;
+    left: 10%;
+    right: 10%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+  }
+.memories a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: opacity 0.3s;
+  }
+table {
+  margin: 22px auto; /* 20px auto bedzie wysrodkowac */
+  border: 2px solid gray;      /* 1px solid gray;  3px dotted #F00; obramowanie calej tabeli } */
+  border-collapse: collapse; /* { border-collapse: collapse; włączenie nakładania się na siebie obramowania } */
+  caption-side: top; /* {  bottom; umiejscowanie tytułu tabeli } */
+  width: 60%;
+
+}
+th, td {
+    border: 2px solid gray; /* 1px solid green;  3px dashed #F00; obramowanie komórki */
+    text-align: center; /*text-align: left; vertical-align: top; wyrównanie zawartości komórki w poziomie (left, center, right, justify) / pionie (top, middle, bottom). */
+  }
+td {
+    height: 30px;
+}
+tr:nth-child(1){
+  background-color: cyan;
+}
+tr:nth-child(2){
+  background-color: limegreen;
+}
+tr:nth-child(3){
+  background-color: yellow;
+}
+tr:nth-child(4){
+  background-color: lightcoral;
+}
+tr:nth-child(5){
+  background-color: lightblue;
+}
+</style> 
+</head>
+<body>
+<h1>HTML Table Gallery</h1>
+<h2>Tablica 7</h2>
+<table > 
+  <tbody> 
+    <tr> 
+      <td rowspan="2">No</td>
+      <td>problem</td>
+      <td>for</td>
+      <td>a web</td>
+    </tr>
+    <tr>
+      <td >professional</td>
+      <td rowspan="3" colspan="2">as</td>
+    </tr>
+    <tr> 
+      <td colspan="2">you</td>
+    </tr>
+    <tr>
+      <td>will</td>
+      <td  rowspan="2">see</td>
+    </tr>
+    <tr>
+      <td> in</td>
+      <td >a few</td>
+      <td>minutes!</td>
+    </tr>
+
+  </tbody>
+</table>
+
+<div class="memories">
+    <a href="table6.html">Previous</a>
+    <a href="table8.html">Next</a>
+</div>
+</body>

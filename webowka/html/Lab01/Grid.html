@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>griddy</title>
+
+</head>
+<style>
+.container {
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
+  border: blue 5px solid;
+}
+.item {
+  border: red 5px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  box-sizing: border-box;
+}
+@media (min-width: 600px) {
+  .container {
+	grid-template-columns: repeat(2, minmax( 150px, 1fr));
+}
+
+}
+
+</style></head>
+<body>
+
+<h1>Grid - Responsywność</h1>
+
+<div class="container">  
+  <div class="item item-1"> </div>
+  <div class="item item-2"> </div>
+  <div class="item item-3"> </div>
+  <div class="item item-4"> </div>
+
+</div>
+</body>
+</html>
+
+

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+ <meta charset="UTF-8">
+<title>Table Gallery</title>
+<style>
+h1 {
+    font-weight: 200;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+ h2 {
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 40px;
+  }
+.memories {
+    position: fixed;
+    left: 10%;
+    right: 10%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+  }
+.memories a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: opacity 0.3s;
+  }
+table {
+  margin: 22px auto; /* 20px auto bedzie wysrodkowac */
+  border: 2px solid gray;      /* 1px solid gray;  3px dotted #F00; obramowanie calej tabeli } */
+  border-collapse: collapse; /* { border-collapse: collapse; włączenie nakładania się na siebie obramowania } */
+  caption-side: top; /* {  bottom; umiejscowanie tytułu tabeli } */
+  width: 60%;
+  table-layout: fixed;
+  
+}
+th, td {
+    border: 2px solid gray; /* 1px solid green;  3px dashed #F00; obramowanie komórki */
+    text-align: left; /*text-align: left; vertical-align: top; wyrównanie zawartości komórki w poziomie (left, center, right, justify) / pionie (top, middle, bottom). */
+   font-weight: 300;
+  }
+td {
+    height: 30px;
+}
+.thick {
+  font-weight: 600;
+}
+</style> 
+</head>
+<body>
+<h1>HTML Table Gallery</h1>
+<h2>Tablica 10</h2>
+<table > 
+  <caption>Invoice</caption>
+  <tbody> 
+    <tr> 
+      <td class="thick">Item / Desc.</td>
+      <td class="thick">Qty.</td>
+      <td class="thick">@</td>
+      <td class="thick">Price</td>
+    </tr>
+    <tr>
+      <td >Paperclips(Box)</td>
+      <td >100</td>
+      <td >1.15</td>
+      <td >115.00</td>
+    </tr>
+    <tr>
+      <td >Paper(Case)</td>
+      <td >10</td>
+      <td >45.99</td>
+      <td >459.90</td>
+    </tr>
+    <tr>
+      <td>Wastepaper Baskets</td>
+      <td>2</td>
+      <td>17.99</td>
+      <td>35.98</td>
+    </tr>
+    <tr> 
+      <td class="thick" colspan="3">Subtotal</td>
+      <td>610.88</td>
+    </tr>
+    <tr> 
+      <td class="thick" colspan="2">Tax</td>
+      <td>7%</td>
+      <td >42.76</td>
+    </tr>
+    <tr> 
+      <td class="thick" colspan="3">Total</td>
+      <td >653.64</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="memories">
+    <a href="table9.html">Previous</a>
+    <a href="../Lab02/prosta_stronka.pl2.html">Next</a>
+</div>
+</body>

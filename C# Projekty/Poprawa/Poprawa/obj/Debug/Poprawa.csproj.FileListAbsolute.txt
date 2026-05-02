@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\Poprawa\Poprawa\bin\Debug\Poprawa.exe.config
+C:\Users\User\source\repos\Poprawa\Poprawa\bin\Debug\Poprawa.exe
+C:\Users\User\source\repos\Poprawa\Poprawa\bin\Debug\Poprawa.pdb
+C:\Users\User\source\repos\Poprawa\Poprawa\obj\Debug\Poprawa.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Poprawa\Poprawa\obj\Debug\Poprawa.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Poprawa\Poprawa\obj\Debug\Poprawa.exe
+C:\Users\User\source\repos\Poprawa\Poprawa\obj\Debug\Poprawa.pdb
