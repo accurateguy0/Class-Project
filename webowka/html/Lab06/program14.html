@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    
+  </style>
+</head>
+<body>
+  <form>
+    <label for="n">n</label>
+    <input type="text" id="n">
+    <input type="submit" value="submit">
+
+  </form>
+  
+    <p> silnia(n)</p>
+    <p id="wynik"></p>
+  <script>
+    const n = document.getElementById('n');
+    const form = document.querySelector('form');
+    const wynik = document.getElementById('wynik');
+    form.addEventListener('submit', function(event){
+      event.preventDefault();
+      let res = 1
+      for (i = 2; i <=Number(n.value); i++){
+        res *= i;
+      }
+      wynik.innerHTML = res;
+    });
+    
+
+    
+    
+    
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <p></p>
+
+    <script>
+      const p = document.querySelector('p');
+      window.addEventListener('keydown', function(event){
+        if(!isNaN(parseFloat(event.key))) {
+          if(parseFloat(event.key) % 2 === 0){
+            p.innerHTML = "Jest parzysta <br>";
+          } else {
+            p.innerHTML = "Jest nieparzysta <br>";
+
+          }
+        }
+      });
+    </script>
+
+</body>
+</html>

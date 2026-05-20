@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+  <head>
+    <style>
+      .greed {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 100px);
+      }
+      .greed div {
+        border: 1px solid #333;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        border-radius: 4px;
+      }
+      .zadanie-7 {
+      display: grid;
+      grid-template-areas:
+        "header header header"
+        "sidebar main main"
+        "footer footer footer";
+      gap: 10px;
+    }
+    .header {
+      grid-area: header;
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .sidebar {
+      grid-area: sidebar;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+    .main {
+      grid-area: main;
+      background-color: #eee;
+      padding: 20px;
+    }
+    .footer {
+      grid-area: footer;
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .products {
+      display: grid;
+      grid-template-areas: "product_1" "product_2" "product_3";
+      padding: 20px;
+    }
+    .product_1, .product_2, .product_3 {
+      border: 1px solid #333;
+      padding: 20px;
+    }
+    .dog-card img {
+      width: 75%;
+      height: 250px;
+      object-fit: cover; /* Sprawia, że zdjęcia mają ten sam wymiar bez rozciągania */
+      display: block;
+    }
+    .holy {
+      display: grid;
+      grid-template-areas: " header header header" "col-left main col-right" " footer footer footer";
+      padding: 20px;
+    }
+    .col-left, .main, .col-right {
+      border: 1px solid #333;
+
+    }
+    .main {
+      grid-area: main;
+      text-align: center;
+    }
+    .col-left {
+      grid-area: col-left;
+      text-align: center;
+    }
+    .col-right {
+      grid-area: col-right;
+      text-align: center;
+    }
+    .tab {
+      display: grid;
+      grid-template-columns: repeat(7, 100px);
+    }
+    .tab div {
+      border: 1px solid #333;
+      width: 100px;
+      height: 20px;
+    }
+    .col-row {
+      display: grid;
+      padding: 20px;
+      grid-template-columns: repeat(4, 1fr); /* Definiujemy automatyczne wiersze */
+      grid-auto-rows: minmax(100px, auto);
+      gap: 15px;
+      margin: 0 auto;
+    }
+    .col-row > div {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      border: 1px solid #ddd;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .Header {
+      grid-column:  1 / 5;
+      background-color: #3498db !important;
+      color: white;
+    }
+    .Sidebar {
+      grid-column: 1 / 2;
+      grid-row: 2 / 4;
+      background-color: #e67e22 !important;
+      color: white;
+    }
+    .Main {
+      grid-column: 2 / 4;
+      min-height: 200px;
+      background-color: #ecf0f1 !important;
+    }
+    .Extra {
+      grid-column: 4 / 5;
+      background-color: #2ecc71 !important;
+      color: white;
+    }
+    .Wider {
+      grid-column:  2 / 5;
+      grid-row: 3 / 4;
+      background-color: #9b59b6 !important;
+      color: white;
+    }
+    .Footer {
+      grid-column: 1 / 5;
+      background-color: #34495e !important;
+      color: white;
+    }
+    @media (max-width: 768px) {
+      .grid-container {
+        grid-template-columns: 1fr;
+      }
+      
+      .Header, .Sidebar, .Main, .Extra, .Wider, footer {
+        grid-column: 1 / 2;
+        grid-row: auto;
+      }
+      .responsiv {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+    
+    }
+    @media (min-width: 769px) {
+    .responsiv {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    
+}
+    .responsiv > div {
+      border: 1px solid #333;
+      width: 100%;
+      height: 20px;
+    }
+
+    .masonry {
+      column-count: 3; /* Liczba kolumn */
+      column-gap: 15px; /* Odstęp między kolumnami */
+      padding: 15px;
+    }
+
+    .masonry .item {
+      display: inline-block; /* Ważne, aby elementy nie pękały */
+      width: 100%;
+      margin-bottom: 15px; /* Odstęp pionowy */
+    }
+
+    .masonry .item img {
+      width: 100%;
+      display: block;
+      border-radius: 8px;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="greed">
+      <div>A</div>
+      <div>B</div>
+      <div>C</div>
+      <div>D</div>
+      <div>E</div>
+      <div>F</div>
+      <div>G</div>
+      <div>H</div>
+      <div>I</div>
+    </div>
+    
+    <div class="zadanie-7">
+      <header class="header">header</header>
+      <aside class="sidebar">aside</aside>
+      <main class="main">main menu ilopsen ipsum</main>
+      
+      
+      <footer class="footer">footer</footer>
+    </div>
+
+    <div class="products">
+      <div class="product_1">product 1</div>
+      <div class="product_2">product 2</div>
+      <div class="product_3">product 3</div>
+    </div>
+
+    <div class="gallery-wrapper">
+  <h1>Ollie Unix Montgomery, the infamous hacker dog</h1>
+  
+  <div class="dog-grid">
+        <div class="dog-card">
+          <img src="ollie1.jpg" alt="Ollie śpi">
+          <div class="caption">Pretending to be a carpet</div>
+        </div>
+        
+        <div class="dog-card">
+          <img src="ollie2.png" alt="Ollie je">
+          <div class="caption">I stole your pizza</div>
+        </div>
+        
+        <div class="dog-card">
+          <img src="ollie3.jpg" alt="Ollie patrzy">
+          <div class="caption">Your forearms are bigger than mine, I'm sure of that</div>
+        </div>
+        
+        <div class="dog-card">
+          <img src="ollie4.jpg" alt="Ollie biega">
+          <div class="caption">godspeed</div>
+        </div>
+        
+        <div class="dog-card">
+          <img src="ollie5.jpg" alt="Ollie w kąpieli">
+          <div class="caption">Let me sunbathe in peace</div>
+        </div>
+        
+        <div class="dog-card">
+          <img src="ollie6.jpg" alt="Ollie prosi">
+          <div class="caption">Give me a potato chip..</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="holy">
+      
+      <header class="header">You need Jesus, go back to church</header>
+      <nav class="col-left">Ain't hitting Sunday School</nav>
+      <main class="main">Baptized, Infinity Pool</main>
+      <aside class="col-right">Get bread, sip wine after school</aside>
+      <footer class="footer">Three Wise Girls, What Would Jesus Do</footer>
+    </div>
+
+    <div class="calendar-man">
+      <div class="tab">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+        <div class="day">Friday</div>
+        <div class="day">Saturday</div>
+        <div class="day">Sunday</div>
+      </div><div class="tab">
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+      </div>
+      <div class="tab">
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+      </div>
+      <div class="tab">
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+      </div>
+      <div class="tab">
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+      </div>
+       <div class="tab">
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+      </div>
+    </div>
+
+    <div class="col-row">
+      <div class="Header">Nagłówek (Header)</div>
+      <div class="Sidebar">Panel boczny (Sidebar)</div>
+      <div class="Main">Treść główna (Main Content)</div>
+      <div class="Extra">Dodatek (Widget)</div>
+      <div class="Wider">Szeroka sekcja pod treścią (Wide Section)</div>
+      <div class="Footer">Stopka (Footer)</div>
+    </div>
+
+    <div class="responsiv">
+      <div>APT.</div>
+      <div>APT.</div>
+      <div>APT.</div>
+      <div>APT.</div>
+      <div>APT.</div>
+    </div>
+
+    <div class="masonry">
+      <div class="item"><img src="https://picsum.photos/400/600" alt="1"></div>
+      <div class="item"><img src="https://picsum.photos/400/300" alt="2"></div>
+      <div class="item"><img src="https://picsum.photos/400/500" alt="3"></div>
+      <div class="item"><img src="https://picsum.photos/400/800" alt="4"></div>
+      <div class="item"><img src="https://picsum.photos/400/400" alt="5"></div>
+    </div>
+  </body>
+</html>

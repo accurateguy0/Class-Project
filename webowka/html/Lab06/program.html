@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przykład okienka Prompt</title>
+</head>
+<body>
+
+    <!-- Przycisk wywołujący okienko -->
+    <button onclick="otworzPrompt()">Kliknij, aby wpisać wiek</button>
+
+    <!-- Akapit, w którym wyświetlimy wynik -->
+    <p id="wynik"></p>
+
+    <script>
+        function otworzPrompt() {
+            // Wywołanie okienka z pytaniem i domyślną wartością
+            let wiek = prompt("Ile masz lat?", "67");
+
+            // Sprawdzenie, czy użytkownik kliknął OK (wartość nie jest pusta)
+            if(!isNaN(wiek) && wiek !== null){
+              if (wiek < 11 ) {
+                document.getElementById("wynik").innerText = "dziecko";
+              } else if (wiek >= 11 && wiek <= 17) {
+                document.getElementById("wynik").innerText = "nastolatek";
+              } else {
+                document.getElementById("wynik").innerText = "dorosły";
+              }
+
+            } else {
+              document.getElementById("wynik").innerText = "Błąd";
+            }
+            
+        }
+    </script>
+
+</body>
+</html>

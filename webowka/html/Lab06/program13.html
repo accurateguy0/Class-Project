@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    
+  </style>
+</head>
+<body>
+  <form>
+    <label for="X">X</label>
+    <input type="text" id="X">
+    <label for="Y">Y</label>
+    <input type="text"  id="Y">
+    <input type="submit" value="submit">
+
+  </form>
+  
+    <p> Pracownik przez X miesięcy odkłada co miesiąc Y zł. W każdym miesiącu z całej odłożonej na tą chwilę 
+kwoty uzyskuje 8% odsetek. Jaką kwotę zgromadzi pracownik ?</p>
+    <p id="wynik"></p>
+  <script>
+    const X = document.getElementById('X');
+    const Y = document.getElementById('Y');
+    const form = document.querySelector('form');
+    const wynik = document.getElementById('wynik');
+    form.addEventListener('submit', function(event){
+      event.preventDefault();
+      let res = 0
+      for (i = 0; i <Number(X.value); i++){
+      res += res * 0.08;
+      res += Number(Y.value);
+      }
+      wynik.innerHTML = res;
+    });
+    
+
+    
+    
+    
+
+  </script>
+</body>
+</html>

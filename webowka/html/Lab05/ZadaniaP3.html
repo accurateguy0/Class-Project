@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hamburger mobile site</title>
+    <style>
+        :root {
+            --sidebar-width: 260px;
+            --header-height: 60px;
+            --primary-color: #2c3e50;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+
+        /* --- LAYOUT KONSTRUKCJA --- */
+        .zadanie-13 {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        /* SIDEBAR */
+        .sidebar {
+            width: var(--sidebar-width);
+            background-color: var(--primary-color);
+            color: white;
+            padding: 20px;
+            transition: transform 0.3s ease;
+            z-index: 1000;
+        }
+
+        /* CONTENT */
+        .main-content {
+            flex: 1;
+            padding: 30px;
+        }
+
+        /* NAGŁÓWEK MOBILNY (Tylko na mobile) */
+        .mobile-header {
+            display: none; /* Ukryty na desktopie */
+            height: var(--header-height);
+            background: white;
+            align-items: center;
+            padding: 0 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        /* PRZYCISK HAMBURGERA */
+        .hamburger {
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            z-index: 1100;
+        }
+        .hamburger span {
+            display: block;
+            width: 25px;
+            height: 3px;
+            background: var(--primary-color);
+            transition: 0.3s;
+        }
+
+        /* --- MEDIA QUERIES (MOBILE) --- */
+        @media (max-width: 768px) {
+            .mobile-header {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .zadanie-13 {
+                flex-direction: column;
+            }
+
+            .sidebar {
+                position: fixed;
+                top: 0;
+                left: 0;
+                height: 100vh;
+                transform: translateX(-100%); /* Ukrywamy sidebar poza ekranem */
+            }
+
+            /* Klasa aktywowana przez JS */
+            .sidebar.active {
+                transform: translateX(0);
+            }
+
+            /* Nakładka przykrywająca tło po otwarciu menu */
+            .overlay {
+                display: none;
+                position: fixed;
+                top: 0; left: 0; width: 100%; height: 100%;
+                background: rgba(0,0,0,0.5);
+                z-index: 999;
+            }
+            .overlay.active { display: block; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header mobilny widoczny tylko na telefonach -->
+    <div class="mobile-header">
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <strong>Moja Strona</strong>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <div class="zadanie-13">
+        <!-- SIDEBAR -->
+        <nav class="sidebar" id="sidebar">
+            <h2 style="margin-bottom: 30px;">Menu</h2>
+            <ul style="list-style: none;">
+                <li style="padding: 10px 0;"><a href="#" style="color: white; text-decoration: none;">🏠 Dashboard</a></li>
+                <li style="padding: 10px 0;"><a href="#" style="color: white; text-decoration: none;">📊 Raporty</a></li>
+                <li style="padding: 10px 0;"><a href="#" style="color: white; text-decoration: none;">👤 Profil</a></li>
+                <li style="padding: 10px 0;"><a href="#" style="color: white; text-decoration: none;">⚙️ Ustawienia</a></li>
+            </ul>
+        </nav>
+
+        <!-- MAIN CONTENT -->
+        <main class="main-content">
+            <h1>Treść główna</h1>
+            <p>Na komputerze sidebar jest widoczny po lewej stronie.</p>
+            <p>Zmniejsz okno przeglądarki, aby zobaczyć, jak sidebar znika i pojawia się przycisk menu.</p>
+        </main>
+    </div>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const sidebar = document.getElementById('sidebar');
+        const overlay = document.getElementById('overlay');
+
+        // Funkcja przełączająca menu
+        function toggleMenu() {
+            sidebar.classList.toggle('active');
+            overlay.classList.toggle('active');
+        }
+
+        hamburger.addEventListener('click', toggleMenu);
+        overlay.addEventListener('click', toggleMenu); // Zamknij po kliknięciu w tło
+    </script>
+
+</body>
+</html>

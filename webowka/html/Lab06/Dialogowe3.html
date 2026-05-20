@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <script>
+      var dane = prompt("Wprowadź zmienne x i y", " 1 2");
+      var bazadanych = dane.trim().split(/\s+/);
+      var x = parseFloat(bazadanych[0]);
+      var y = parseFloat(bazadanych[1]);
+      document.write( (x + y) + "<br>");
+      document.write((x - y) + "<br>");
+      document.write( (x * y) + "<br>");
+      document.write( (x / y) + "<br>");
+   
+    </script>
+
+</body>
+</html>

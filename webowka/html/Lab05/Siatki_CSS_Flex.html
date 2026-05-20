@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+  <head>
+    <style>
+      .center-container {
+  display: flex;
+  justify-content: center; /* Środkowanie w poziomie */
+  align-items: center;     /* Środkowanie w pionie */
+  height: 100vh;           /* Kontener musi mieć wysokość, np. całego ekranu */
+  background-color: #f0f0f0;
+}
+
+.box {
+  padding: 20px;
+  background: #3498db;
+  color: white;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around; /* Równe odstępy między i wokół elementów */
+  list-style: none;
+  background: #2c3e50;
+  padding: 15px;
+  margin: 0;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+.card-container {
+  display: flex;
+  gap: 20px; /* Nowoczesny odstęp między kartami */
+}
+
+.card {
+  flex: 1; /* Każda karta zajmuje tyle samo szerokości */
+  background: #ecf0f1;
+  padding: 20px;
+  border: 1px solid #bdc3c7;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap; /* Pozwala na zawijanie do nowych wierszy */
+  gap: 10px;
+}
+
+.item {
+  flex: 1 1 200px; /* Rośnij, kurcz się, ale celuj w 200px szerokości bazowej */
+  height: 150px;
+  background: #e67e22;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+}
+/* Ważne: musimy ustawić wysokość dla body i html */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.site-wrapper {
+  display: flex;
+  flex-direction: column; /* Układ pionowy */
+  min-height: 100vh;      /* Co najmniej wysokość ekranu */
+}
+
+.content {
+  flex: 1; /* Ten element zajmie całą dostępną przestrzeń, spychając stopkę w dół */
+  padding: 20px;
+}
+
+header, footer {
+  background: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+    </style>
+  </head>
+  <body>
+    <body class="site-wrapper">
+  <header>Nagłówek</header>
+  <main class="content">
+    Jeśli tutaj jest mało tekstu, stopka i tak będzie na samym dole.
+  </main>
+  <footer>To jest stopka</footer>
+</body>
+    <div class="gallery">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+  <div class="item">5</div>
+</div>
+    <div class="card-container">
+  <div class="card">Krótka treść.</div>
+  <div class="card">Treść o średniej długości, która zajmuje więcej miejsca.</div>
+  <div class="card">Bardzo długa treść, która wymusza wysokość wszystkich pozostałych kart w tym rzędzie dzięki Flexbox.</div>
+</div>
+    <div class="center-container">
+  <div class="box">Jestem na środku!</div>
+</div>
+    <nav class="navbar">
+  <ul class="nav-links">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">O nas</a></li>
+    <li><a href="#">Usługi</a></li>
+    <li><a href="#">Kontakt</a></li>
+  </ul>
+</nav>
+  </body>
+</html>

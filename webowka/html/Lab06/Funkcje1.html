@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    button { font-size: 20px; cursor: pointer; }
+    p { font-size: 20px; }
+    div { max-width: 75%; display: flex; }
+    .contain { display: flex; align-items: center; flex-direction: column; gap: 10px; }
+    .contain div { gap: 10px; }
+    .calculations { display: flex; justify-content: center; width: 100%; }
+    .title { display: flex; justify-content: center; width: 75%; font-size: 40px; font-weight: 900; }
+    
+    #numberInput {
+      margin-top: 15px;
+      padding: 5px;
+      font-size: 20px;
+      width: 100px;
+    }
+  </style>
+</head>
+<body>
+  <form> 
+    <label for="a">a:</label>
+    <input type="text" id="a">
+    <label for="b">b:</label>
+    <input type="text" id="b">  
+    <input type="button" value="+" onclick="dodawanie()">
+    <input type="button" value="-" onclick="odejmowanie()">
+    <input type="button" value="*" onclick="mnozenie()"> 
+    <input type="button" value="/" onclick="dzielenie()"> 
+    <input type="text" id="wynik">
+  </form> 
+
+  <script>
+    // Select elements (note the dots for classes!)
+    const a = document.getElementById('a');
+    const b = document.getElementById('b');
+    const wynik = document.getElementById('wynik');
+    function dodawanie() {
+      wynik.value = Number(a.value) + Number(b.value);
+    }
+    function odejmowanie() {
+      wynik.value = Number(a.value) - Number(b.value);
+    }
+    function mnozenie() {
+      wynik.value = Number(a.value) * Number(b.value);
+    }
+    function dzielenie() {
+      wynik.value = Number(a.value) / Number(b.value);
+    }
+
+  </script>
+</body>
+</html>

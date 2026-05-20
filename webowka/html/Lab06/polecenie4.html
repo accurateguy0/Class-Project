@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    button { font-size: 20px; cursor: pointer; }
+    p { font-size: 20px; }
+    div { max-width: 75%; display: flex; }
+    .contain { display: flex; align-items: center; flex-direction: column; gap: 10px; }
+    .contain div { gap: 10px; }
+    .calculations { display: flex; justify-content: center; width: 100%; }
+    .title { display: flex; justify-content: center; width: 75%; font-size: 40px; font-weight: 900; }
+    
+    #numberInput {
+      margin-top: 15px;
+      padding: 5px;
+      font-size: 20px;
+      width: 100px;
+    }
+  </style>
+</head>
+<body>
+  <p class="title">dodawanie</p>
+  <div class="calculations">
+    <p class="A">0</p>
+    <p>+</p>
+    <p class="B">0</p>
+    <p>=</p>
+    <p class="result">0</p>
+  </div>
+
+  <div class="contain">
+    <div>
+      <!-- Added IDs to these buttons -->
+      <button id="btnA">podaj A</button>
+      <button id="btnB">podaj B</button>
+    </div>
+    <div>
+      <button id="clearBtn">wyczyść</button>
+    </div>
+    
+    <!-- This input starts hidden -->
+    <input type="number" id="numberInput" style="display: none;" placeholder="0">
+  </div>
+
+  <script>
+    // Select elements (note the dots for classes!)
+    const textA = document.querySelector('.A');
+    const textB = document.querySelector('.B');
+    const textResult = document.querySelector('.result');
+    
+    const btnA = document.getElementById('btnA');
+    const btnB = document.getElementById('btnB');
+    const clearBtn = document.getElementById('clearBtn');
+    const numberInput = document.getElementById('numberInput');
+
+    let currentMode = ''; // To know if we are typing for A or B
+
+    // Function to calculate the sum
+    function calculate() {
+      textResult.innerText = Number(textA.innerText) + Number(textB.innerText);
+    }
+
+    // When "podaj A" is clicked
+    btnA.addEventListener('click', function() {
+      numberInput.style.display = 'block';
+      numberInput.focus();
+      numberInput.value = textA.innerText;
+      currentMode = 'A';
+    });
+
+    // When "podaj B" is clicked
+    btnB.addEventListener('click', function() {
+      numberInput.style.display = 'block';
+      numberInput.focus();
+      numberInput.value = textB.innerText;
+      currentMode = 'B';
+    });
+
+    // Update the numbers in real-time as you type
+    numberInput.addEventListener('input', function() {
+      if (currentMode === 'A') {
+        textA.innerText = numberInput.value || 0;
+      } else {
+        textB.innerText = numberInput.value || 0;
+      }
+      calculate();
+    });
+
+    // Hide input when user presses Enter
+    numberInput.addEventListener('keypress', function(e) {
+      if (e.key === 'Enter') {
+        numberInput.style.display = 'none';
+      }
+    });
+
+    // Clear logic
+    clearBtn.addEventListener('click', function() {
+      textA.innerText = '0';
+      textB.innerText = '0';
+      textResult.innerText = '0';
+      numberInput.style.display = 'none';
+      numberInput.value = '';
+    });
+  </script>
+</body>
+</html>

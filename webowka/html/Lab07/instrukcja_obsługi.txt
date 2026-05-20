@@ -1,0 +1,56 @@
+Zainstaluj php na wsl: sudo apt install php
+
+Wpisz w terminalu:
+
+php -S 127.0.0.1:8000
+
+Powinieneś zobaczyć napis: PHP Development Server started at http://127.0.0.1:8000. PHP to nie tylko język, ale ma on w sobie "mini-serwer". Flaga -S mówi interpreterowi:
+"Nie tylko wykonaj kod, ale stań się serwerem WWW, który nasłuchuje na porcie 8000".
+To zastępuje potrzebę instalowania ciężkich programów typu Apache czy XAMPP.
+
+Otwórz przeglądarkę (Chrome, Firefox lub Edge).
+W pasku adresu wpisz: http://127.0.0.1:8000/program1.php
+
+Chyba że chcesz użyć debuggera w VSCode:
+
+Krok 1: Przełącz VS Code w tryb WSL
+Spójrz na lewy dolny róg VS Code. Jeśli nie widzisz tam napisu WSL: Kali-Linux, kliknij ten mały niebieski/zielony przycisk ><.
+Wybierz opcję: Connect to WSL.
+Teraz wybierz File -> Open Folder i otwórz folder, w którym masz plik
+
+Krok 2: Zainstaluj rozszerzenie "PHP Debug" wewnątrz WSL
+Wejdź w rozszerzenia (Ctrl+Shift+X).
+Znajdź PHP Debug (autor: Felix Becker).
+Zobaczysz prawdopodobnie niebieski przycisk: Install in WSL: Kali-Linux. Kliknij go. 
+
+Krok 3: Zainstaluj Xdebug w Kali Linux
+Sam interpreter PHP nie wystarczy do debugowania. Otwórz terminal w Kali i wpisz:
+
+sudo apt update
+sudo apt install php-xdebug
+
+Krok 4: Skonfiguruj "Launch.json"
+Teraz, gdy VS Code jest już "wewnątrz" Linuxa:
+Kliknij ikonę Run and Debug (robaczek po lewej).
+Kliknij create a launch.json file i wybierz PHP.
+VS Code stworzy plik. Zmień jego treść na taką, która pozwoli uruchomić "bieżący plik":
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch current script",
+            "type": "php",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${fileDirname}",
+            "port": 9003,
+            "runtimeExecutable": "/usr/bin/php"
+        }
+    ]
+}
+
+Krok 5: Uruchom Debugowanie
+Otwórz swój plik.
+Kliknij obok numeru linii, aby postawić czerwoną kropkę (breakpoint) – tam program się zatrzyma.
+Naciśnij F5 lub kliknij zieloną strzałkę "Launch current script" w panelu Debug.

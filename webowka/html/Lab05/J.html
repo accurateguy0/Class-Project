@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grupa zadań J</title>
+  <style>
+    /* 2. Różne kroje czcionek i jednostki rozmiaru */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: 'Arial', sans-serif;
+    }
+
+
+    h1 {
+      text-align: center;
+      background-color: #333;
+      color: white;
+    }
+
+
+    /* 1. Flexbox bez media query */
+    /* Główny kontener pozwalający na zawijanie wierszy w razie braku miejsca */
+    .page-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    /* Pasek nawigacyjny */
+    .sidebar {
+      background-color: #f4f4f4;
+      padding: 1rem;
+    }
+
+    .sidebar ul {
+      list-style-type: none;
+      padding: 0;
+      /* Elementy menu jeden pod drugim */
+    }
+
+    .sidebar li {
+      width: 100%;
+      /* Zajmują całą szerokość rodzica */
+    }
+
+    .sidebar a {
+      display: block;
+      padding: 0.8rem;
+      background-color: #ddd;
+      text-decoration: none;
+      font-size: 1.1rem;
+    }
+
+    
+
+    /* Główna treść - elastycznie dostosowana, wymuszająca zawijanie przy małym ekranie */
+    .content {
+      flex: 3 1 400px;
+    }
+
+    /* 5. Centrowanie elementów w pionie i poziomie */
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .centered-box {
+      background-color: #4CAF50;
+      color: white;
+      padding: 2rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Tytuł strony (zawsze na górze) -->
+  <header>
+    <h1>Tytuł strony</h1>
+  </header>
+
+  <!-- Wraper responsywny bez Media Queries -->
+  <div class="page-wrapper">
+    <!-- Menu jako sidebar dla dużych okien, ląduje z pełną szerokością pod tytułem dla małych okien -->
+    <nav class="sidebar">
+      <ul>
+        <li><a href="#">Element nawigacji 1</a></li>
+        <li><a href="#">Element nawigacji 2</a></li>
+        <li><a href="#">Element nawigacji 3</a></li>
+        <li><a href="#">Element nawigacji 4</a></li>
+      </ul>
+    </nav>
+
+    <!-- Treść z większym priorytetem szerokości -->
+    <main class="content">
+      <h2>Treść Strony</h2>
+      <p>You know that person, big smile, teeth out, always riding waves on the dancefloor, high off of life, yeah.
+        <strong>flexbox (flex-wrap: wrap)</strong> You know that feeling, real-sly feeling in your body, head locked in,
+        soul-rooted kinda moment
+      </p>
+    </main>
+  </div>
+
+  <!-- Zadanie 5 - Centrowanie elementu w kontenerze -->
+  <div class="container">
+    <div class="centered-box">
+      Wyśrodkowany Div
+    </div>
+  </div>
+
+</body>
+
+</html>

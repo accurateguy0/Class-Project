@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przykład okienka Prompt</title>
+</head>
+<body>
+  <p>czy podany napis ma przynajmniej 6 znaków, a dodatkowo sprawdzi 
+także, czy łańcuch zakończony jest wyrazem „kot”.</p>
+
+    <!-- Przycisk wywołujący okienko -->
+    <button onclick="otworzPrompt()">Kliknij, aby wpisać tekst</button>
+
+    <!-- Akapit, w którym wyświetlimy wynik -->
+    <p id="wynik"></p>
+
+    <script>
+        function otworzPrompt() {
+            // Wywołanie okienka z pytaniem i domyślną wartością
+            let txt = prompt("Napisz jakiś tekst", "67");
+            let res = ""
+
+            // Sprawdzenie, czy użytkownik kliknął OK (wartość nie jest pusta)
+            if( txt !== null){
+              if (txt.length >= 6 ) {
+                res += "Wyraz ma co najmniej 6 znaków";
+              } else{
+                res += "Wyraz nie ma co najmniej 6 znaków";
+              } 
+              if (txt.endsWith('kot')) {
+                res += ", ale kończy się napisem kot";
+              } else {
+                res += ", ale nie kończy się napisem kot";
+              }
+
+            } else {
+              document.getElementById("wynik").innerText = "Błąd";
+            }
+            document.getElementById("wynik").innerText = res;
+        }
+    </script>
+
+</body>
+</html>

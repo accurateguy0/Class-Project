@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przykład okienka Prompt</title>
+</head>
+<body>
+  <p>program wyświetlający informacje o klawiszu wciśniętym na klawiaturze – jego nazwę oraz kod 
+ASCII.</p>
+    <p id="wynik"></p>
+
+    <script>
+      const wynik = document.getElementById('wynik')
+      window.addEventListener('keydown', function(event){
+        if(event.key == 'Enter') {
+          wynik.innerHTML = "Naciśnięto " + event.key + ". kod znaku: " + event.keyCode;
+        } else if(event.key == 'a' || event.key == 'A') {
+          wynik.innerHTML = "Naciśnięto " + event.key + ". kod znaku: " + event.keyCode;
+        } else if(event.key == 'w' || event.key == 'W') {
+          wynik.innerHTML = "Naciśnięto " + event.key + ". kod znaku: " + event.keyCode;
+        } else if(event.key == 's' || event.key == 'S') {
+          wynik.innerHTML = "Naciśnięto " + event.key + ". kod znaku: " + event.keyCode;
+        } else if(event.key == 'd' || event.key == 'D') {
+          wynik.innerHTML = "Naciśnięto " + event.key + ". kod znaku: " + event.keyCode;
+        } else if(event.key == 'Escape') {
+          wynik.innerHTML = "Naciśnięto " + event.key + ". kod znaku: " + event.keyCode;
+        } else if(event.key == 'ArrowRight') {
+          wynik.innerHTML = "Naciśnięto" + event.key + ". kod znaku: " + event.keyCode;
+        } else if(event.key == 'ArrowLeft') {
+          wynik.innerHTML = "Naciśnięto " + event.key + ". kod znaku: " + event.keyCode;
+        } else if(event.key == 'ArrowUp') {
+          wynik.innerHTML = "Naciśnięto " + event.key + ". kod znaku: " + event.keyCode;
+        } else if(event.key == 'ArrowDown') {
+          wynik.innerHTML = "Naciśnięto " + event.key + ". kod znaku: " + event.keyCode;
+        }
+        
+      });
+    </script>
+
+</body>
+</html>

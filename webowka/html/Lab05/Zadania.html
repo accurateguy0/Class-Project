@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pl">  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>17 prac herkulesa</title>
+  <style>
+    /* 2. Różne kroje czcionek i jednostki rozmiaru */
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      text-align: center;
+      background-color: #333;
+      color: white;
+    }
+    #zad1{
+      display: flex;
+      list-style-type: none;
+      padding: 10px;
+      gap: 10px;
+      flex-grow: 100;
+      flex-direction: column;
+    }
+    
+    button {
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+    .rating {
+      width: 100px;
+      height: auto;
+    }
+    .zadanie-2 {
+      display: inline-block;
+      margin: 10px;
+      text-align: center;
+      flex-wrap: wrap;
+    }
+    .zadanie-3 {
+      display: flex;
+      width: 50%;
+      background-color: #f4f4f4;
+      row-gap: 10px;
+    }
+    .zadanie-3 > div {
+      padding: 20px;
+      text-align: center;
+      border: #333 solid 1px;
+    }
+    .zadanie-4 {
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    .left-col {
+      width: 200px;
+      background-color: #ddd;
+      padding: 20px;
+    }
+    .center-col {
+      flex: 1;
+      background-color: #eee;
+      padding: 20px;
+    }
+    .right-col {
+      width: 300px;
+      background-color: #ddd;
+      padding: 20px;
+    }
+    .zadanie-6 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .zadanie-6 img {
+      width: 100%;
+      height: auto;
+    }
+    .zadanie-7 {
+      display: grid;
+      grid-template-areas:
+        "header header header"
+        "sidebar main main"
+        "footer footer footer";
+      gap: 10px;
+    }
+    .header {
+      grid-area: header;
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .sidebar {
+      grid-area: sidebar;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+    .main {
+      grid-area: main;
+      background-color: #eee;
+      padding: 20px;
+    }
+    .footer {
+      grid-area: footer;
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .zadanie-8 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+     .card {
+      background-color: #f4f4f4;
+      padding: 20px;
+      border: 1px solid #ddd;
+      text-align: center;
+      
+    }
+    .zadanie-9 {
+      display: grid;
+      grid-template-columns: 20% 50% 30%;
+      gap: 20px;
+    }
+    .zadanie-10 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+    .zad10 div {
+      background-color: white;
+      color: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 0.8em;
+      border-radius: 3px;
+      box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    }
+    .zad10 {
+      background-color: #ff9800; /* Wyróżniający się kolor */
+      padding: 10px;
+      border-radius: 5px;
+      
+      /* Tutaj tworzymy nową siatkę wewnątrz komórki */
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* 2 kolumny */
+      grid-template-rows: 1fr 1fr;    /* 2 wiersze */
+      gap: 10px;
+      min-height: 150px;
+    }
+
+    .zadanie-12 {
+      display: grid;
+      grid-auto-rows: 5px;
+    }
+    .item {
+      background-color: #ddd;
+      border-radius: 8px;
+    }
+
+    .item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Ważne, by obrazek wypełnił zadany span */
+    }
+
+    /* Ręczne definiowanie wysokości przez "span" (ile klocków po 10px zajmuje) */
+    .short  { grid-row: span 15; } /* 150px */
+    .medium { grid-row: span 25; } /* 250px */
+    .tall   { grid-row: span 40; } /* 400px */
+    .extra  { grid-row: span 55; } /* 550px */
+  </style>
+</head>
+<body>
+  <div class="zadanie-1">
+    <ul id="zad1">
+      <li><button type="button">Click Me!</button></li>
+      <li><button type="button">Click Me!</button></li>
+      <li><button type="button">Click Me!</button></li>
+      <li><button type="button">Click Me!</button></li>
+      <li><button type="button">Click Me!</button></li>
+    </ul>
+  </div>
+
+  
+  <div class="zadanie-2">
+      <img class="image" src="1.jpg">
+      <h3>Cheshire Cat Grin</h3>
+      <img class="rating" src="rating5.png">
+      $75.26
+  </div>
+  <div class="zadanie-2">
+      <img class="image" src="2.jpg">
+      <h3>ZZZZZZ Bed - Your New Home Office</h3>
+      <img class="rating" src="rating5.png">
+      $62.73
+  </div>
+  <div class="zadanie-2">
+      <img class="image" src="3.jpg">
+      <h3>Giant Pillow Thing</h3>
+      <img class="rating" src="rating5.png">
+      $52.96
+  </div>
+  <footer>
+    <p>Strona z zadaniami 1 i 2</p>
+    <div class="zadanie-3">
+      <div style="flex: 2">kolumna 1</div>
+      <div style="flex: 1">kolumna 2</div>
+      <div style="flex: 1">kolumna 3</div>
+      <div style="flex: 1">kolumna 4</div>
+    </div>
+    
+  </footer>
+  <div class="zadanie-4">
+        <nav class="left-col">
+            <h3>Lewa kolumna</h3>
+            <p>Szerokość: 200px</p>
+        </nav>
+
+        <main class="center-col">
+            <h2>Kolumna środkowa</h2>
+            <p>Ta sekcja jest elastyczna i zajmuje całą dostępną przestrzeń między panelami bocznymi.</p>
+        </main>
+
+        <aside class="right-col">
+            <h3>Prawa kolumna</h3>
+            <p>Szerokość: 300px</p>
+        </aside>
+    </div>
+
+    <div class="zadanie-6">
+        <div class="grid-item"><img src="https://loremflickr.com/800/800/funny,cat?random=1" alt="Śmieszny kot 1"></div>
+        <div class="grid-item"><img src="https://loremflickr.com/800/800/funny,cat?random=2" alt="Śmieszny kot 2"></div>
+        <div class="grid-item"><img src="https://loremflickr.com/800/800/funny,cat?random=3" alt="Śmieszny kot 3"></div>
+        <div class="grid-item"><img src="https://loremflickr.com/800/800/funny,cat?random=4" alt="Śmieszny kot 4"></div>
+        <div class="grid-item"><img src="https://loremflickr.com/800/800/funny,cat?random=5" alt="Śmieszny kot 5"></div>
+        <div class="grid-item"><img src="https://loremflickr.com/800/800/funny,cat?random=6" alt="Śmieszny kot 6"></div>
+        <div class="grid-item"><img src="https://loremflickr.com/800/800/funny,cat?random=7" alt="Śmieszny kot 7"></div>
+        <div class="grid-item"><img src="https://loremflickr.com/800/800/funny,cat?random=8" alt="Śmieszny kot 8"></div>
+        <div class="grid-item"><img src="https://loremflickr.com/800/800/funny,cat?random=9" alt="Śmieszny kot 9"></div>
+    </div>
+
+    <div class="zadanie-7">
+        <header class="header">Nagłuwka</header>
+        <aside class="sidebar">Pasek zboczny </aside>
+        <main class="main">
+            <article>
+                <h2>Treść guwna</h2>
+                <p>ilopsum ilorem Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+            </article>
+        </main>
+        <footer class="footer">Stópka</footer>
+    </div>
+
+    <div class="zadanie-8">
+        <div class="card"><h3>Karta 1</h3><p>Opis elementu</p></div>
+        <div class="card"><h3>Karta 2</h3><p>Opis elementu</p></div>
+        <div class="card"><h3>Karta 3</h3><p>Opis elementu</p></div>
+        <div class="card"><h3>Karta 4</h3><p>Opis elementu</p></div>
+        <div class="card"><h3>Karta 5</h3><p>Opis elementu</p></div>
+        <div class="card"><h3>Karta 6</h3><p>Opis elementu</p></div>
+        <div class="card"><h3>Karta 7</h3><p>Opis elementu</p></div>
+        <div class="card"><h3>Karta 8</h3><p>Opis elementu</p></div>
+    </div>
+
+    <div class="zadanie-9">
+        <div class="card"><p>Dogma</p></div>
+        <div class="card"><p>Big Dawg</p></div>
+        <div class="card"><p>Douglas</p></div>
+        <div class="card"><p>Doggy</p></div>
+        <div class="card"><p>dognap</p></div>
+        <div class="card"><p>God</p></div>
+        <div class="card"><p>top dog</p></div>
+        <div class="card"><p>doge</p></div>
+    </div>
+
+    <div class="zadanie-10">
+        <div class="zad10">
+          <div>catwalk</div>
+          <div>copycat</div>
+          <div>catchup</div>
+          <div>catfish</div>
+        </div>
+        <div class="card"><p>2</p></div>
+        <div class="card"><p>3</p></div>
+        <div class="card"><p>4</p></div>
+        <div class="card"><p>5</p></div>
+        <div class="card"><p>6</p></div>
+        <div class="card"><p>7</p></div>
+        <div class="card"><p>8</p></div>
+    </div>
+
+    <div class="zadanie-12">
+        <div class="item short"><img src="https://picsum.photos/400/150?1"></div>
+        <div class="item tall"><img src="https://picsum.photos/400/400?2"></div>
+        <div class="item medium"><img src="https://picsum.photos/400/250?3"></div>
+        <div class="item extra"><img src="https://picsum.photos/400/550?4"></div>
+        <div class="item tall"><img src="https://picsum.photos/400/400?5"></div>
+        <div class="item short"><img src="https://picsum.photos/400/150?6"></div>
+        <div class="item medium"><img src="https://picsum.photos/400/250?7"></div>
+        <div class="item extra"><img src="https://picsum.photos/400/550?8"></div>
+    </div>
+
+    
+
+  
+    
+</body>
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Student Registration Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      /* Centers the table on the page */
+      display: flex;
+      justify-content: center;
+    }
+
+    /* The main container styled to match the light blue background */
+    table.registration-form {
+      background-color: #a8d0e6;
+      width: 700px;
+      padding: 30px 40px;
+      border-collapse: collapse;
+    }
+
+    h2 {
+      text-align: center;
+      margin: 0 0 10px 0;
+      font-size: 26px;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid white;
+      margin-bottom: 25px;
+    }
+
+    td {
+      padding-bottom: 15px;
+      /* Space between rows */
+    }
+
+    label {
+      font-weight: bold;
+      font-size: 14px;
+      color: #222;
+
+    }
+
+    /* Shared styling for all text-based inputs and textareas */
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    input[type="password"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      background-color: #f2f2f2;
+      box-sizing: border-box;
+      margin-top: 5px;
+      font-size: 14px;
+      display: block;
+      margin: 10px auto;
+      resize: vertical;
+    }
+
+    .phone-input {
+      margin-bottom: 10px;
+    }
+
+    textarea {
+      height: 80px;
+      resize: vertical;
+      display: block;
+      margin: 10px auto;
+    }
+
+    label {
+      resize: vertical;
+      margin: 10px auto;
+    }
+
+    select {
+      padding: 5px;
+      margin-left: 5px;
+    }
+
+    /* Style the large green submit button */
+    .register-btn {
+      width: 100%;
+      /* Stops it from taking the whole width */
+      display: block;
+      margin: 20px auto;
+      /* This line puts it in the middle */
+      background-color: #5cb85c;
+      color: white;
+      padding: 15px;
+      border: none;
+      /* Fixed the 100px border */
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .register-btn:hover {
+      background-color: #4cae4c;
+    }
+
+    td {
+      padding-bottom: 15px;
+      /* Space between rows */
+      padding-left: 5%;
+      /* Pushes everything in from the left */
+      padding-right: 5%;
+      /* Pushes everything in from the right */
+    }
+  </style>
+</head>
+
+<body>
+
+  <form action="/przetworz_formularz" method="POST">
+    <table class="registration-form">
+      <tr>
+        <td>
+          <h2>Student Registration Form</h2>
+          <hr>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="firstname">Firstname:</label><br>
+          <input type="text" id="firstname" name="firstname" placeholder="Firstname">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="middlename">Middlename:</label><br>
+          <input type="text" id="middlename" name="middlename" placeholder="Middlename">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="lastname">Lastname:</label><br>
+          <input type="text" id="lastname" name="lastname" placeholder="Lastname">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="course">Course :</label>
+          <select id="course" name="course">
+            <option value="Course">Course</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Gender :</label>
+          <input type="radio" id="male" name="gender" value="Male" checked style="margin-left: 5px;">
+          <label for="male" style="font-weight: normal;">Male</label>
+
+          <input type="radio" id="female" name="gender" value="Female" style="margin-left: 10px;">
+          <label for="female" style="font-weight: normal;">Female</label>
+
+          <input type="radio" id="other" name="gender" value="Other" style="margin-left: 10px;">
+          <label for="other" style="font-weight: normal;">Other</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="phone">Phone :</label><br>
+          <input type="tel" id="phone" name="phone1" value="+91" class="phone-input"><br>
+          <input type="text" name="phone2" placeholder="phone no.">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="address">Current Address :</label><br>
+          <textarea id="address" name="address" placeholder="Current Address"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="email">Email</label><br>
+          <input type="email" id="email" name="email" placeholder="Enter Email">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="password">Password</label><br>
+          <input type="password" id="password" name="password" placeholder="Enter Password">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="retype_password">Re-type Password</label><br>
+          <input type="password" id="retype_password" name="retype_password" placeholder="Retype Password">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button type="submit" class="register-btn">Register</button>
+        </td>
+      </tr>
+    </table>
+  </form>
+
+</body>
+
+</html>

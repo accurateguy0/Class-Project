@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+  <head>
+      <meta charset="UTF-8">
+    <style>
+      .zadanie-15 {
+      display: grid;
+      grid-template-areas:
+        "header header header"
+        "sidebar main main"
+        "footer footer footer";
+      gap: 10px;
+    }
+    .header {
+      grid-area: header;
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      display: flex;
+    }
+    .sidebar {
+      grid-area: sidebar;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+    .main {
+      grid-area: main;
+      background-color: #eee;
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* 2 kolumny */
+      grid-template-rows: 1fr 1fr 1fr;    /* 2 wiersze */
+    }
+    .footer {
+      grid-area: footer;
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      display: flex;
+    }
+    .card {
+      background-color: #f4f4f4;
+      padding: 20px;
+      border: 1px solid #ddd;
+      text-align: center;
+      
+    }
+
+    .products { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px;
+    transition: transform 0.3s ease;
+    } 
+    .product { 
+    flex: 1 1 200px; 
+    background: #f0f0f0; 
+    padding: 15px; 
+    border: 1px solid #ddd;
+    background-color: #f4f4f4;
+    transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    border: 2px solid #444;
+    } 
+    .products :hover{
+      flex: 2; /* Karta fizycznie zajmuje więcej miejsca wiersza */
+      background-color: #bbbbbb;
+      z-index: 10; /* Karta jest nad innymi */
+      transform: scale(1.05);
+    }
+    .day {
+      border: 1px solid #444;
+    }
+    .tab {
+      display: grid;
+      grid-template-columns: repeat(8, 1fr);
+    }
+    .zadanie-16 {
+      padding: 20px;
+    }
+    .zadanie-17 {
+      overflow: hidden;
+    }
+    </style>
+
+  </head>
+  <body>
+    <div class="zadanie-15">
+        <header class="header">Nagłuwka</header>
+        <aside class="sidebar">Pasek zboczny </aside>
+        <main class="main">
+            
+          <div class="card"><h3>guwny ele 1</h3></div>
+          <div class="card"><h3>guwny ele 2</h3></div>
+          <div class="card"><h3>guwny ele 3</h3></div>
+          <div class="card"><h3>guwny ele 4</h3></div>
+          <div class="card"><h3>guwmy ele 5</h3></div>
+          <div class="card"><h3>guwmy ele 6</h3></div>
+    
+        </main>
+        <footer class="footer">Stópka</footer>
+    </div>
+
+    <div class="products"> 
+    <div class="product">Produkt 1</div> 
+    <div class="product">Produkt 2</div> 
+    <div class="product">Produkt 3</div> 
+    </div>
+
+    <div class="zadanie-16">
+      <div class="tab">
+        <div class="day">Weeks</div>
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+        <div class="day">Friday</div>
+        <div class="day">Saturday</div>
+        <div class="day">Sunday</div>
+      </div><div class="tab">
+        <div class="day">Week 1</div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+      </div>
+      <div class="tab">
+        <div class="day">Week 2</div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+      </div>
+      <div class="tab">
+        <div class="day">Week 3</div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+      </div>
+      <div class="tab">
+        <div class="day">Week 4</div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+      </div>
+    </div>
+    
+  </body>
+</html>

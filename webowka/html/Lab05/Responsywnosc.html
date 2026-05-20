@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsywne Wyzwania 21-30</title>
+    <style>
+       .container-obrazka {
+            width: 80%; /* Kontener zajmuje 80% ekranu */
+            margin: 0 auto;
+            border: 2px solid red;
+        }
+
+        img {
+            /* To są najważniejsze linie dla responsywnych obrazów */
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        /* 21. Breakpointy i podstawy */
+        body { font-family: sans-serif; margin: 0; line-height: 1.6; }
+        .section { padding: 20px; border-bottom: 2px solid #eee; }
+
+        /* 22. Menu Nawigacyjne */
+        nav { background: #333; color: white; padding: 1rem; display: flex; justify-content: space-between; align-items: center; }
+        .nav-links { display: none; list-style: none; margin: 0; padding: 0; }
+        .nav-links.active { display: flex; flex-direction: column; width: 100%; position: absolute; top: 60px; left: 0; background: #333; padding: 10px; }
+        .hamburger { cursor: pointer; font-size: 1.5rem; }
+
+        @media (min-width: 768px) {
+            .hamburger { display: none; }
+            .nav-links { display: flex; gap: 20px; }
+            .nav-links.active { position: static; flex-direction: row; padding: 0; }
+        }
+
+        /* 23. Proporcjonalne obrazki & 30. Element <picture> */
+        .responsive-img { max-width: 100%; height: auto; display: block; border-radius: 8px; }
+
+        /* 24. Tabela stająca się kartami */
+        .responsive-table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        .responsive-table th, .responsive-table td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+
+        @media (max-width: 600px) {
+            .responsive-table thead { display: none; }
+            .responsive-table tr { display: block; margin-bottom: 15px; border: 2px solid #333; }
+            .responsive-table td { display: block; text-align: right; position: relative; padding-left: 50%; }
+            .responsive-table td::before {
+                content: attr(data-label);
+                position: absolute; left: 10px; font-weight: bold; text-align: left;
+            }
+        }
+
+        /* 25. Galeria kolumnowa */
+        .gallery {
+            display: grid;
+            gap: 10px;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        }
+        .gallery-item { background: #3498db; color: white; height: 100px; display: flex; align-items: center; justify-content: center; }
+
+        /* 26. Formularz: Kolumna vs Wiersz */
+        .flex-form { display: flex; flex-direction: column; gap: 10px; }
+        @media (min-width: 768px) {
+            .flex-form { flex-direction: row; }
+            .flex-form input { flex: 1; }
+        }
+
+        /* 27. Tekst skalowany VW i Clamp */
+        .fluid-text {
+            font-size: clamp(1.5rem, 5vw, 3rem);
+            color: #2c3e50;
+            text-align: center;
+        }
+
+        /* 28. Tekst owijający obrazek */
+        .wrap-container img { width: 100%; margin-bottom: 10px; }
+        @media (min-width: 768px) {
+            .wrap-container img { width: 200px; float: left; margin-right: 20px; }
+        }
+
+        /* 29. Container Queries */
+        .card-container { container-type: inline-size; border: 2px dashed #e74c3c; padding: 10px; }
+        .card { background: #f9f9f9; padding: 10px; }
+        @container (min-width: 400px) {
+            .card { background: #f1c40f; font-weight: bold; }
+        }
+
+        /* Stylizacja breakpointów z Twojego przykładu (zad 21) */
+        .status-box { padding: 20px; background: lightblue; text-align: center; margin-top: 10px; }
+        @media (min-width: 600px) { .status-box { background: lightgreen; } }
+        @media (min-width: 1024px) { .status-box { background: lightcoral; } }
+        .artykul {
+            padding: 20px;
+        }
+
+        .artykul img {
+            width: 100%; /* Na mobile: obrazek na całą szerokość */
+            height: auto;
+            margin-bottom: 15px;
+        }
+
+        /* Desktop: od 768px szerokości ekranu */
+        @media (min-width: 768px) {
+            .artykul img {
+                width: 250px;    /* Stała szerokość na desktopie */
+                float: left;     /* To powoduje, że tekst owija obrazek */
+                margin-right: 20px; /* Odstęp tekstu od obrazka */
+                margin-bottom: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+  <div class="artykul">
+        <h2>Zadanie 29: Układ z obrazkiem i tekstem</h2>
+        <img src="https://via.placeholder.com/300x200" alt="Foto">
+        <p>
+            To jest tekst artykułu. Na małym ekranie (mobile) obrazek znajduje się powyżej tego tekstu 
+            i zajmuje pełną szerokość. Jeśli jednak rozszerzysz okno przeglądarki powyżej 768px, 
+            zobaczysz, że obrazek wskoczy na lewą stronę, a ten tekst zacznie go owijać z prawej strony.
+            Dzieje się tak dzięki właściwości float: left zastosowanej wewnątrz media query.
+            To klasyczny układ stosowany w portalach informacyjnych.
+        </p>
+    </div>
+  <h3>Zadanie 23: Obrazek skaluje się wraz z czerwoną ramką</h3>
+    <div class="container-obrazka">
+        <img src="https://via.placeholder.com/1200x600" alt="Skalowalny obraz">
+    </div>
+
+    <!-- 22. Menu -->
+    <nav>
+        <div>Logo</div>
+        <div class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('active')">☰</div>
+        <ul class="nav-links">
+            <li>Start</li>
+            <li>O nas</li>
+            <li>Usługi</li>
+            <li>Kontakt</li>
+        </ul>
+    </nav>
+
+    <div class="section">
+        <!-- 21 & 27 -->
+        <h1 class="fluid-text">Responsywny Tekst (vw/clamp)</h1>
+        <div class="status-box">Zadanie 21: Kolor tła zmienia się przy 600px i 1024px</div>
+    </div>
+
+    <div class="section">
+        <!-- 30. Picture element -->
+        <h2>30. Element &lt;picture&gt;</h2>
+        <picture>
+            <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/1000x300/e74c3c/fff?text=Obraz+Desktop">
+            <source media="(min-width: 600px)" srcset="https://via.placeholder.com/600x300/f1c40f/fff?text=Obraz+Tablet">
+            <img src="https://via.placeholder.com/400x200/3498db/fff?text=Obraz+Mobile" alt="Demo" class="responsive-img">
+        </picture>
+    </div>
+
+    <div class="section">
+        <!-- 28. Tekst owijający -->
+        <h2>28. Tekst owijający obrazek (tylko Desktop)</h2>
+        <div class="wrap-container">
+            <img src="https://via.placeholder.com/200" alt="Avatar">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Na dużym ekranie ten tekst opływa obrazek dzięki "float: left". Na małym ekranie obrazek zajmuje całą szerokość i jest nad tekstem. To klasyczne podejście do układu artykułów.</p>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+
+    <div class="section">
+        <!-- 25. Galeria -->
+        <h2>25. Galeria (Grid auto-fit)</h2>
+        <div class="gallery">
+            <div class="gallery-item">1</div>
+            <div class="gallery-item">2</div>
+            <div class="gallery-item">3</div>
+            <div class="gallery-item">4</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <!-- 24. Tabela -->
+        <h2>24. Tabela do kart (Mobile)</h2>
+        <table class="responsive-table">
+            <thead>
+                <tr><th>Produkt</th><th>Cena</th><th>Dostępność</th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label="Produkt">Laptop X</td>
+                    <td data-label="Cena">3500 zł</td>
+                    <td data-label="Dostępność">Tak</td>
+                </tr>
+                <tr>
+                    <td data-label="Produkt">Telefon Y</td>
+                    <td data-label="Cena">2200 zł</td>
+                    <td data-label="Dostępność">Brak</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section">
+        <!-- 26. Formularz -->
+        <h2>26. Formularz (Kolumna na Mobile, Wiersz na Desktop)</h2>
+        <form class="flex-form">
+            <input type="text" placeholder="Imię">
+            <input type="email" placeholder="Email">
+            <button type="submit">Zapisz się</button>
+        </form>
+    </div>
+
+    <div class="section">
+        <!-- 29. Container Queries -->
+        <h2>29. Container Queries</h2>
+        <p>Zmienia kolor żółty, gdy jego bezpośredni RODZIC ma powyżej 400px (nie okno przeglądarki!)</p>
+        <div class="card-container">
+            <div class="card">Mój wygląd zależy od szerokości mojego kontenera!</div>
+        </div>
+    </div>
+
+</body>
+</html>

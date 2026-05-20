@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      
+      .b1, .b2 {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-radius: 10px;
+        border: 1px solid #333;
+      }
+      p {
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+  
+    <button onclick="fontsmall()" class="b1">duży</button>
+    <button onclick="fontbig()" class="b2">mały</button>
+    <p class="p"> Zmiana wielkości tekstu, o 
+wielkości 20px; Do obsługi zdarzenia onClick przycisków dodaj skrypty, które powodują zmianę 
+wielkości tekstu: duży - 50px; mały - 20px; </p>
+
+<script>
+  const p = document.querySelector('p');
+
+  function fontsmall(){
+    p.style.fontSize = '20px';
+  }
+  function fontbig(){
+    p.style.fontSize = '50px';
+  }
+  
+</script>
+    
+    
+
+  </body>
+  
+
+
+</html>

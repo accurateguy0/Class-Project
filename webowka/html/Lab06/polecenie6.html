@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      h1 {
+        color: red;
+      }
+      
+      button {
+        font-size: 20px;
+      }
+      p {
+        font-size: 20px;
+      }
+      div {
+        max-width: 75%;
+        display: flex;
+      }
+      .contain {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .contain div {
+        gap: 4px;
+      }
+      .form {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Formatowanie tekstu</h1>
+    <div class="contain">
+      <div>
+        <button onclick="fontbig()" class="b2">tekst 60px</button>
+        <button onclick="fontsmall()" class="b1">tekst 20px</button>
+      </div>
+      <div>
+        <button onclick="blackcolor()">czarny tekst</button>
+      <button onclick="greencolor()">zielony tekst</button>
+
+      </div>
+      <div>
+        <button onclick="whitebackground()">tło białe</button>
+        <button onclick="yellowbackground()">tło żółte</button>
+      </div>
+      <div>
+        <button onclick="noborder()">brak ramki </button>
+        <button onclick="redborder()">ramka 5px czerwona</button>
+      </div>
+      <div>
+        <button onclick="changetext()">zmień tekst</button>
+      <button onclick="restoretext()">przwróć tekst</button>
+
+      </div>
+      
+      <form class="form" id="form">
+        <label for="name" class="input">Napisz tekst:</label>
+        <input type="text" class="input">
+      </form>
+      
+      <p id="p">A Simple Text</p>
+      
+
+    </div>
+    
+
+<script>
+  const p = document.querySelector('p');
+  const input = document.querySelector('.input');
+  const form = document.querySelector('.form');
+  const input1 = document.getElementById('form').getElementsByClassName('input')[1];
+  let restored = "";
+  form.addEventListener('submit', function(event){
+    event.preventDefault();
+    restored = p.innerText;
+    p.innerHTML = input1.value;
+    form.style.display = 'none';
+  })
+
+
+ 
+  function blackcolor(){
+    p.style.color = 'black';
+  }
+   function greencolor(){
+    p.style.color = 'green';
+  }
+  function fontbig(){
+    p.style.fontSize = '60px'
+  }
+  function fontsmall(){
+    p.style.fontSize = '20px'
+  }
+  function blacktext(){
+    p.style.color = 'black';
+  }
+  function redtext(){
+    p.style.color = 'red';
+  }
+  function noborder(){
+    p.style.border = 'none';
+  }
+  function redborder(){
+    p.style.border = '5px solid red'
+  }
+  function changetext(){
+    if (form.style.display === 'none' || form.style.display === ''){
+      form.style.display = 'block';
+      input1.value = p.innerText;
+    } else {
+      form.style.display = 'none';
+    }
+    
+  }
+  function restoretext(){
+    p.innerText = restored;
+  }
+  function whitebackground(){
+    const body = document.querySelector('body');
+    body.style.backgroundColor = 'white'
+  }
+  function yellowbackground(){
+    const body = document.querySelector('body');
+    body.style.backgroundColor = 'yellow'
+  }
+</script>
+    
+    
+
+  </body>
+  
+
+
+</html>

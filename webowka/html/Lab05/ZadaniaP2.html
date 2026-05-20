@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <style>
+     * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+    body, html {
+            height: 100%; /* Konieczne dla flexa */
+            overflow: hidden; /* Strona jako całość się nie przewija */
+            font-family: 'Segoe UI', sans-serif;
+        }
+    .zadanie-11 {
+        display: flex;
+        height: 100vh; /* Zajmuje całe okno przeglądarki */
+    }
+    .sitebar {
+      flex: 0 0 250px;
+      color: white;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      border-right: 1px solid #1a252f;
+    }
+    .sidebar h2 { margin-bottom: 20px; font-size: 1.2rem; }
+
+    .sitebar nav a {
+      color: #bdc3c7;
+      text-decoration: none;
+      display: block;
+      padding: 10px 0;
+      border-bottom: 1px solid #34495e;
+    }
+    .sitebar nav a:hover {
+      background-color: #34495e;
+      color: white;
+    }
+    .content p {
+      margin-bottom: 1rem;
+      line-height: 1.6;
+    }
+    .content h2 {
+      margin-top: 1.5rem;
+    }
+    .content {
+      overflow: auto;
+      flex: 1;
+      background-color: #ecf0f1;
+      padding: 40px;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="zadanie-11">
+      <aside class="sitebar">
+        <div class="mobile-header">
+          <div class="hamburger" id="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+          <strong>Moja Strona</strong>
+        </div>
+
+         <div class="overlay" id="overlay"></div>
+        
+        <nav>
+          <h2>Panel Sterowania</h2>
+            <a href="#">🏠 Dr. House</a>
+            <a href="#">📊 Static</a>
+            <a href="#">👥 friENDs</a>
+            <a href="#">⚙️ Cog in the machine</a>
+            <a href="#">🚪 exit</a>
+        </nav>
+      </aside>
+      <main class="content">
+        <h1>Witamy w Panelu Sterowania</h1>
+        <p>Wybierz jedną z opcji po lewej stronie, aby rozpocząć.</p>
+        <p>Felicità
+È tenersi per mano, andare lontano, la felicità
+È il tuo sguardo innocente in mezzo alla gente, la felicità
+È restare vicini come bambini, la felicità
+Felicità
+Felicità
+È un cuscino di piume, l'acqua del fiume che passa e che va
+È la pioggia che scende dietro alle tende, la felicità
+È abbassare la luce per fare pace, la felicità
+Felicità
+Felicità
+È un bicchiere di vino con un panino, la felicità
+È lasciarti un biglietto dentro al cassetto, la felicità
+È cantare a due voci quanto mi piaci, la felicità
+Felicità
+Senti nell'aria c'è già
+La nostra canzone d'amore che va
+Come un pensiero che sa di felicità
+Senti nell'aria c'è già
+Un raggio di sole più caldo che va
+Come un sorriso che sa di felicità
+Felicità
+È una sera a sorpresa, la luna accesa e la radio che va
+È un biglietto d'auguri pieno di cuori, la felicità
+È una telefonata non aspettata, la felicità
+Felicità
+Felicità
+È una spiaggia di notte, l'onda che batte, la felicità
+È una mano sul cuore piena d'amore, la felicità
+È aspettare l'aurora per farlo ancora, la felicità
+Felicità
+Senti nell'aria c'è già
+La nostra canzone d'amore che va
+Come un pensiero che sa di felicità
+Senti nell'aria c'è già
+Un raggio di sole più caldo che va
+Come un sorriso che sa di felicità
+Senti nell'aria c'è già
+La nostra canzone d'amore che va
+Come un pensiero che sa di felicità
+Senti nell'aria c'è già
+Un raggio di sole più caldo che va
+Come un sorriso che sa di felicità</p>
+
+<div class="dialogue-line">
+                <span class="speaker">The Protagonist:</span>
+                <span class="text">"We live in a twilight world."</span>
+            </div>
+            <div class="dialogue-line">
+                <span class="speaker">Well-Dressed Man:</span>
+                <span class="text">"And there are no friends at dusk."</span>
+            </div>
+            <div class="dialogue-line">
+                <span class="speaker">The Protagonist:</span>
+                <span class="text">You’ve been made. This siege is a blind for them to vanish you. Bring you in or kill you, I have two minutes, make up your mind. Where’s the package?</span>
+            </div>
+            <div class="dialogue-line">
+                <span class="speaker">Well-Dressed Man:</span>
+                <span class="text">Coat-check.</span>
+            </div>
+
+            <hr style="border: 0; border-top: 1px solid #222; margin: 30px 0;">
+
+            <div class="dialogue-line">
+                <span class="speaker">Fay:</span>
+                <span class="text">Welcome to the afterlife. You’ve been in a medically-induced coma while we got you out of Ukraine and rebuilt your mouth.</span>
+            </div>
+            <div class="dialogue-line">
+                <span class="speaker">The Protagonist:</span>
+                <span class="text">The suicide pills are fake. Why?</span>
+            </div>
+            <div class="dialogue-line">
+                <span class="speaker">Fay:</span>
+                <span class="text">A test. Not everybody passes. All I have for you is a gesture, in combination with a word. “Tenet”. Use it carefully.</span>
+            </div>
+
+            <hr style="border: 0; border-top: 1px solid #222; margin: 30px 0;">
+
+            <div class="dialogue-line">
+                <span class="speaker">Barbara:</span>
+                <span class="text">One of these bullets is like us, traveling forwards through time. The other one's going backwards. Can you tell which is which?</span>
+            </div>
+            <div class="dialogue-line">
+                <span class="speaker">The Protagonist:</span>
+                <span class="text">How can it move before I touch it?</span>
+            </div>
+            <div class="dialogue-line">
+                <span class="speaker">Barbara:</span>
+                <span class="text">From your point of view, you caught it. But from the bullet’s point of view, you dropped it. Don’t try to understand it. Feel it.</span>
+            </div>
+            <hr style="border: 0; border-top: 1px solid #222; margin: 30px 0;">
+            <div class="line">
+                    <span class="speaker">Klaus:</span>
+                    <span class="text">"Well sir, our clients use us because we have no priorities, above their property."</span>
+                </div>
+                <div class="line">
+                    <span class="speaker">Neil:</span>
+                    <span class="text">"All doors are fireproof. Hydraulic closers... Surprisingly easy once there's a lockdown. Inner doors revert to factory settings. And pickable locks."</span>
+                </div>
+                <div class="line">
+                    <span class="speaker">The Protagonist:</span>
+                    <span class="text">"You want to crash a plane?"</span>
+                </div>
+                <div class="line">
+                    <span class="speaker">Neil:</span>
+                    <span class="text">"Well, not from the air, don't be so dramatic. I want to run a jet off the taxiway, breach the rear wall and start a fire."</span>
+                </div>
+                <div class="line">
+                    <span class="speaker">The Protagonist:</span>
+                    <span class="text">"Well, how big a plane?"</span>
+                </div>
+                <div class="line">
+                    <span class="speaker">Neil:</span>
+                    <span class="text" >"Well... that part is a little dramatic."</span>
+                </div>
+                <div class="line">
+                    <span class="speaker">Mahir:</span>
+                    <span class="text">"Norsk Freight. They use the hangar on the west. We pop the slides, chuck the crew off."</span>
+                </div>
+                <div class="line">
+                    <span class="speaker">The Protagonist:</span>
+                    <span class="text">"Well, it seems bold."</span>
+                </div>
+                <div class="line">
+                    <span class="speaker">Mahir:</span>
+                    <span class="text">"‘Bold’ I’m fine with. I thought you were gonna say ‘nuts’."</span>
+                </div>
+            
+      </main>
+    </div>
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const sidebar = document.getElementById('sidebar');
+        const overlay = document.getElementById('overlay');
+
+        // Funkcja przełączająca menu
+        function toggleMenu() {
+            sidebar.classList.toggle('active');
+            overlay.classList.toggle('active');
+        }
+
+        hamburger.addEventListener('click', toggleMenu);
+        overlay.addEventListener('click', toggleMenu); // Zamknij po kliknięciu w tło
+    </script>
+
+
+
+</body>
+
+
+</html>

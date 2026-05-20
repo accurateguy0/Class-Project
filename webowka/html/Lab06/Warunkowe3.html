@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program 16 - Pole trójkąta</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        .wynik {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .error {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Inteligentne Calcólacje</h2>
+
+    <script>
+        // Pobieranie danych od użytkownika
+        let a = parseFloat(prompt("Podaj długość boku a:"));
+        let b = parseFloat(prompt("Podaj długość boku b:"));
+        let c = parseFloat(prompt("Podaj długość boku c:"));
+
+        // Sprawdzenie czy podane dane są liczbami
+        if (isNaN(a) || isNaN(b) || isNaN(c) || a <= 0 || b <= 0 || c <= 0) {
+            document.write("<p class='error'>Podano nieprawidłowe dane (muszą być to liczby dodatnie).</p>");
+        } 
+        else {
+            // Warunek istnienia trójkąta: suma dwóch dowolnych boków musi być większa od trzeciego boku
+            if (a + b > c && a + c > b && b + c > a) {
+                document.write("Można zbudować trójkąt");
+            } else {
+                document.write("Nie można zbudować trójkąt");
+            }
+        }
+    </script>
+
+</body>
+</html>

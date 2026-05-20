@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      h1 {
+        color: red;
+      }
+      
+      button {
+        font-size: 20px;
+      }
+      p {
+        font-size: 20px;
+      }
+      div {
+        max-width: 75%;
+        display: flex;
+      }
+      .contain {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .contain div {
+        gap: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Formatowanie tekstu</h1>
+    <div class="contain">
+      <div>
+        <button onclick="fontbig()" class="b2">tekst 50px</button>
+        <button onclick="fontsmall()" class="b1">tekst 30px</button>
+      </div>
+      <div>
+        <button onclick="whitebackground()">tło białe</button>
+        <button onclick="yellowbackground()">tło żółte</button>
+      </div>
+      <div>
+        <button onclick="noborder()">brak ramki </button>
+        <button onclick="redborder()">ramka 5px czerwona</button>
+      </div>
+      <div>
+        <button onclick="changetext()">zmień tekst</button>
+      <button onclick="restoretext()">przwróć tekst</button>
+
+      </div>
+      
+      <p id="p">A Simple Text</p>
+      
+
+    </div>
+    
+
+<script>
+  const p = document.querySelector('p');
+
+  function fontsmall(){
+    p.style.fontSize = '20px';
+  }
+  function fontbig(){
+    p.style.fontSize = '50px';
+  }
+  function blacktext(){
+    p.style.color = 'black';
+  }
+  function redtext(){
+    p.style.color = 'red';
+  }
+  function noborder(){
+    p.style.border = 'none';
+  }
+  function redborder(){
+    p.style.border = '5px solid red'
+  }
+  function changetext(){
+    document.getElementById('p').innerHTML = 'Changed Text';
+  }
+  function restoretext(){
+    document.getElementById('p').innerHTML = 'Default Text';
+  }
+  function whitebackground(){
+    const body = document.querySelector('body');
+    body.style.backgroundColor = 'white'
+  }
+  function yellowbackground(){
+    const body = document.querySelector('body');
+    body.style.backgroundColor = 'yellow'
+  }
+</script>
+    
+    
+
+  </body>
+  
+
+
+</html>

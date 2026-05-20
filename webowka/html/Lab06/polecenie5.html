@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    button { font-size: 20px; cursor: pointer; }
+    p { font-size: 20px; display: none; }
+  </style>
+</head>
+<body>
+  
+
+  
+    
+  <button id="authorpage" class="authorpage">Wyświetl okno o autorze</button>
+  <p  class="p">Hello, my name is Dawid Kowalski. I am a Computer Science and Mathematics student at the Warsaw University of Life Sciences (SGGW). I am deeply interested in the Salesforce ecosystem and its internal processes. I particularly enjoy working with Salesforce and LWC due to the powerful features it offers, such as Lightning App Builder, Flow Builder, Einstein AI, and many others.
+My portfolio includes an Amazon clone website that I developed. I also have experience with SQL through the Natas (Overthewire) challenges, where I had to understand back-end operations and identify implementation vulnerabilities. Additionally, I have worked with Python, primarily using the HTTP module. During my university studies, I gained a solid foundation in Object-Oriented Programming (OOP) and C#, including core concepts like polymorphism and inheritance.
+Regarding soft skills, I value teamwork, I am eager to learn, and I am committed to continuous growth. While communication is currently an area I am working to improve, I am actively taking steps to become more effective in this field.</p>
+    
+  <script>
+    const button = document.querySelector('.authorpage');
+    const p = document.querySelector('.p');
+    button.addEventListener('click', function() {
+      if (p.style.display === 'none'){
+        p.style.display = 'block';
+
+      } else {
+        p.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>

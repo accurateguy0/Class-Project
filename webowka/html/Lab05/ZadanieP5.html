@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      /* Kontener główny - Flexbox */
+.zadanie-17 {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+/* Karta */
+.card {
+  flex: 1;
+  min-width: 250px;
+  max-width: 350px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Ukrywa wystającą treść opisów */
+}
+
+/* Zawartość karty - Flexbox pionowy */
+.card-content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.card-title {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+/* Ukryty opis */
+.card-description {
+  margin: 0;
+  color: #666;
+  line-height: 1.5;
+  max-height: 0; /* Początkowa wysokość to 0 */
+  opacity: 0; /* Ukrycie tekstu */
+  transition: max-height 0.4s ease, opacity 0.3s ease; /* Płynna animacja */
+}
+
+/* Efekt Hover - Rozwinięcie karty */
+.card:hover .card-description {
+  max-height: 200px; /* Wartość większa niż spodziewana treść */
+  opacity: 1; /* Pokazanie tekstu */
+}
+
+    </style>
+
+  </head>
+  <body>
+    <div class="zadanie-17">
+      <div class="card">
+        <div class="card-content">
+          <h3 class="card-title">Niespodzianka 1</h3>
+          <p class="card-description">Peek-a-boo!!</p>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="card-content">
+          <h3 class="card-title">Niespodzianka 2</h3>
+          <p class="card-description">To sekret, nie patrzyć</p>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

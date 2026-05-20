@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program 16 - Ciąg liczb</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .wynik { font-weight: bold; color: #2c3e50; word-wrap: break-word; }
+    </style>
+</head>
+<body>
+
+    <h2>Inteligentne Wyliczanie Ciągu</h2>
+    <div id="kontener" class="wynik"></div>
+
+    <script>
+        // Pobieranie danych
+        let a = parseFloat(prompt("Podaj liczbę początkową (a):"));
+        let b = parseFloat(prompt("Podaj liczbę końcową (b):"));
+        let kontener = document.getElementById("kontener");
+        let wynik = "";
+
+        if (isNaN(a) || isNaN(b)) {
+            kontener.innerHTML = "Podano nieprawidłowe liczby.";
+        } else {
+            if (a <= b) {
+                // Liczenie w górę
+                for (let i = a; i <= b; i++) {
+                    wynik += i + (i === b ? "" : ", ");
+                }
+            } else {
+                // Liczenie w dół
+                for (let i = a; i >= b; i--) {
+                    wynik += i + (i === b ? "" : ", ");
+                }
+            }
+            kontener.innerHTML = wynik;
+        }
+    </script>
+
+</body>
+</html>

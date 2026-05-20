@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przykład okienka Prompt</title>
+</head>
+<body>
+
+    <button onclick="otworzPrompt()">Kliknij, aby wpisać masę i wzrost</button>
+
+    <p id="wynik"></p>
+    <img src="Screenshot_17-5-2026_94816_sggwpl.sharepoint.com.jpeg" alt="wskaźnik BMI, zdjęcie">
+
+    <script>
+        function otworzPrompt() {
+            let dane = prompt("Jaka waga(kg) i wzrost(m)", "67 1.74");
+            let tablicaDanych = dane.split(" ");
+            let masa = parseFloat(tablicaDanych[0]);
+            let wzrost = parseFloat(tablicaDanych[1]);
+            wzrost2 = Math.pow(wzrost, 2);
+            if (!isNaN(masa) && !isNaN(wzrost) && wzrost > 0) {
+                    let wzrost2 = Math.pow(wzrost, 2);
+                    let BMI = masa / wzrost2;
+
+                    
+                    let wynikTekst = "Twoje BMI wynosi: " + BMI.toFixed(2);
+                    alert(wynikTekst);
+                    document.getElementById("wynik").innerText = wynikTekst;
+                } else {
+                    alert("Wprowadzono nieprawidłowe dane!");
+                }
+        }
+    </script>
+
+</body>
+</html>
